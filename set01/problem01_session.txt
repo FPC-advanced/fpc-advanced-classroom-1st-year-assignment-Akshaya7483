@@ -21,3 +21,99 @@ PS C:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-
 
 PS C:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483> c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem01.exe
 
+PS C:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483> gcc -g "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem02.c" -o "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem02.exe" 2>&1
+
+PS C:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483> c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem02.exe
+34+32=66
+PS C:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483> git add .
+
+PS C:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483> git commit -m "committed 10/26/2023, 4:09:01 PM"
+
+PS C:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483> git push
+
+PS C:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483> dir
+
+
+    Directory: C:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        12-10-2023     16:14                .vscode
+d-----        26-10-2023     16:08                set01
+d-----        26-10-2023     16:02                set02
+d-----        12-10-2023     15:41                set03
+d-----        12-10-2023     15:41                set04
+d-----        12-10-2023     15:41                set05
+-a----        12-10-2023     15:41            495 .gitignore
+-a----        12-10-2023     15:41             65 .replit
+-a----        20-10-2023     23:13          41929 a.exe
+-a----        12-10-2023     15:41            276 README.md
+-a----        12-10-2023     15:41             57 replit.nix
+-a----        12-10-2023     15:41          99994 Untitled-1.txt
+
+
+PS C:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483> cd .\set01\
+PS C:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01> git add .
+
+PS C:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01> git commit -m "committed 10/26/2023, 4:11:22 PM"
+
+PS C:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01> git push
+
+PS C:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01> dir
+
+
+    Directory: C:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        19-10-2023     16:00            164 problem01.c
+-a----        26-10-2023     16:07          42019 problem01.exe
+-a----        19-10-2023     16:00              0 problem01_compile_errors.txt
+-a----        19-10-2023     16:00             46 problem01_debug_log.txt
+-a----        26-10-2023     16:07           1526 problem01_session.txt
+-a----        12-10-2023     16:03            278 problem02.c
+-a----        26-10-2023     16:08          42531 problem02.exe
+-a----        19-10-2023     16:00              0 problem02_compile_errors.txt
+-a----        19-10-2023     16:00             46 problem02_debug_log.txt
+-a----        12-10-2023     16:08            434 problem03.c
+-a----        19-10-2023     16:00          43609 problem03.exe
+-a----        19-10-2023     16:00              0 problem03_compile_errors.txt
+-a----        19-10-2023     16:00             46 problem03_debug_log.txt
+-a----        19-10-2023     22:16            493 problem04.c
+-a----        19-10-2023     22:02          43609 problem04.exe
+-a----        19-10-2023     22:02              0 problem04_compile_errors.txt
+-a----        19-10-2023     22:02             47 problem04_debug_log.txt
+-a----        19-10-2023     22:16             71 problem05.c
+-a----        19-10-2023     22:10          43609 problem05.exe
+-a----        19-10-2023     22:10              0 problem05_compile_errors.txt
+-a----        19-10-2023     22:10             47 problem05_debug_log.txt
+-a----        12-10-2023     16:13             78 problem06.c
+-a----        19-10-2023     22:04            479 problem07.c
+-a----        19-10-2023     22:04          43609 problem07.exe
+-a----        19-10-2023     22:04              0 problem07_compile_errors.txt
+-a----        19-10-2023     22:04             47 problem07_debug_log.txt
+-a----        20-10-2023     23:13            610 problem08.c
+-a----        19-10-2023     22:08          43609 problem08.exe
+-a----        19-10-2023     22:08              0 problem08_compile_errors.txt
+-a----        19-10-2023     22:08             47 problem08_debug_log.txt
+-a----        19-10-2023     22:03            702 problem09.c
+-a----        19-10-2023     22:03          43609 problem09.exe
+-a----        19-10-2023     22:03              0 problem09_compile_errors.txt
+-a----        19-10-2023     22:03             47 problem09_debug_log.txt
+-a----        19-10-2023     22:18            591 problem10.c
+-a----        19-10-2023     22:18            175 problem10_compile_errors.txt
+-a----        19-10-2023     22:18              0 problem10_debug_log.txt
+-a----        12-10-2023     16:13             61 problem11.c
+-a----        12-10-2023     16:14             66 problem12.c
+-a----        12-10-2023     15:41           3905 README.md
+
+
+PS C:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01> git push
+
+PS C:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231026161732
+**********************
