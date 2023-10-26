@@ -19,7 +19,7 @@ void input(int *num1,int *num2,int *num3)
    {
         *larg=num2;
    }
-   else(num3>num2 && num3>num1)
+   if(num3>num2 && num3>num1)
    {
         *larg=num3;
    }
