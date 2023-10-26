@@ -9,20 +9,22 @@ int input()
 }
 int is_composite(int n)
 {
-    int y;
     int count=0;
-    for(int i=1;i<n;i++)
+    int i=1;
+    while(i!=n)
     {
-        y=n/i;
-        {    
-            count=count+1;
+        if(n==(n/i)*i)
+        {
+             count++;
         }
-        return count;
+        i++;
     }
+     return count;
+
 }
-void output(int count)
+void output(int a)
 {
-    if(count>1)
+    if(a>1)
     {
         printf("it is a composite number");
     }
@@ -35,7 +37,7 @@ int main()
 {
     int n,result,count;
     n=input();
-    is_composite(n);
+    count=is_composite(n);
     output(count);
     return 0;
 }
