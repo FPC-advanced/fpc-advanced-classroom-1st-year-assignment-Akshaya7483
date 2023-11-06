@@ -1,37 +1,41 @@
 // 8. Write a C program to find sum of _n_ different numbers entered by the user.
 #include<stdio.h>
-int input()
+int array_size(int *n)
 {
     int x;
-    printf("enter the size of an array :  ");
-    scanf("%d",x);
-    return x;
+    printf("input array size : ");
+    scanf("%d",&x);
+    *n=x;
+    return *n;
 }
-int compute(int n,int a[n])
+void input_array(int n,int *x)
 {
-     int i;
-     a[n];
-     int sum=0;
-     {
-    for(i=0;i<n;i++)
-    {
-        scanf("%d",&a[i]);
-        sum=a[i]+sum;
-    }
-     }
-    return sum;
+    int q;
+    scanf("%d",&q);
+    *x=q;
 }
-int output(int sum)
+int sum_array(int z,int *sum)
 {
-    printf("sum of n is %d",sum);
-    return sum;
+    *sum=z+*sum;
 }
+void output(int sum)
+{
+    printf("The sum is %d",sum);
+}
+
 int main()
 {
-    int n,sum;
-    n=input();
-    int a[n];
-    sum=compute(n,a);
+    int n,a[n];
+    int sum=0;
+    array_size(&n);
+    for(int i=0;i<n;i++)
+    {
+        input_array(n, &a[i]);
+        if(a[i]==(a[i]/3)*3)
+        {
+            sum_array(a[i],&sum);
+        }
+    }
     output(sum);
     return 0;
 }
