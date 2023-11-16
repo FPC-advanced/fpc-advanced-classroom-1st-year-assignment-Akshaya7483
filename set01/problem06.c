@@ -1,38 +1,31 @@
-// 6. Write a C program to compare three numbers using **pass by reference**
 #include<stdio.h>
-void input(int *num1,int *num2,int *num3)
+
+void input(int *a, int *b, int *c)
 {
-    printf("enter the number");
-    scanf("%d",num1);
-    printf("enter the number");
-    scanf("%d",num2);
-    printf("enter the number");
-    scanf("%d",num3);
-  }
-  void compare(int num1,int num2,int num3,int *larg)
-  {
-   if(num1>num2 && num1>num3)
-   {
-        *larg=num1;
-   }
-   if(num2>num1 && num2>num3)
-   {
-        *larg=num2;
-   }
-   if(num3>num2 && num3>num1)
-   {
-        *larg=num3;
-   }
-  }
-  void output(int *larg)
-  {
-    printf("largest is %d",*larg);
-  }
+    printf("enter the three values : ");
+    scanf("%d %d %d",a,b,c);
+}
+void compare(int a, int b, int c, int *largest)
+{
+    *largest=a;
+    if(b>*largest)
+    {
+        *largest=b;
+    }
+    if(c>*largest)
+    {
+        *largest=c;
+    }
+}
+void output(int x, int y, int z, int largest)
+{
+    printf("largest of %d ,%d and %d is %d",x,y,z,largest);
+}
 int main()
 {
-    int a,b,c,larg;
+    int a,b,c,lar;
     input(&a,&b,&c);
-    compare(a,b,c,&larg);  
-    output(&larg);
+    compare(a,b,c,&lar);
+    output(a,b,c,lar);
     return 0;
 }

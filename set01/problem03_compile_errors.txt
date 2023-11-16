@@ -1,0 +1,15 @@
+Compilation started at 11/16/2023, 11:21:05 AM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem03.c:10:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ add(int a ,int b)
+ ^~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem03.c:14:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ output(int a,int b ,int sum)
+ ^~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem03.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem03.c:24:5: error: too few arguments to function 'output'
+     output(sum);
+     ^~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem03.c:14:1: note: declared here
+ output(int a,int b ,int sum)
+ ^~~~~~
+Compilation finished at 11/16/2023, 11:21:05 AM

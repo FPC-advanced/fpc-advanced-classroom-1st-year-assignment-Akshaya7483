@@ -1,39 +1,38 @@
 #include<stdio.h>
-int input_side()
+void input_side(int *a,int *b,int *c)
 {
-    int x;
-    scanf("%f",&x);
-    return x;
+    printf("enter the side :");
+    scanf("%d",a);
+    printf("enter the side :");
+    scanf("%d",b);
+    printf("enter the side :");
+    scanf("%d",c);
 }
 int check_scalene(int a, int b, int c)
+{   
+    int count=0;
+   if(a==b || a==c || b==c)
+   {
+    count++;
+   }
+return count;
+}
+void output(int isscalene)
 {
-    if(a==b || b==c || c==a)
+    if(isscalene>0)
     {
-        return 0;
+        printf("is not a scalene");
     }
     else
     {
-        return 1;
-    }
-    
-}
-void output(int a, int b, int c, int isscalene)
-{
-    if(isscalene==0)
-    {
-        printf("not a scalene");
-    }
-    else{
-        printf("is scalene");
+          printf("is a scalene");
     }
 }
 int main()
 {
-    int a,b,c;
-    a=input_side();
-    b=input_side();
-    c=input_side();
-    int isscalene=check_scalene(a,b,c);
-    output(a,b,c,isscalene);
+    int a,b,c,isscalene;
+    input_side(&a,&b,&c);
+    isscalene=check_scalene(a,b,c);
+    output(isscalene);
     return 0;
-} 
+}

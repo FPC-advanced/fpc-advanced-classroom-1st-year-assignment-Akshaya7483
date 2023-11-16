@@ -11,7 +11,7 @@ float input()
 float mysqrt(float n)
 {
      float x;
-      x=n/2;
+      x=n;
     
     while(x*x!=n)
     {
@@ -21,7 +21,7 @@ float mysqrt(float n)
         }
         else
         {
-            x=x+x/2;
+            x=x+x/n;
         }
   }
         return x;

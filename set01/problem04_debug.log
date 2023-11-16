@@ -1,0 +1,96 @@
++cd "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01"
+"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01": Invalid argument.
++gcc -g "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem04.c" -o "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem04.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem04.exe"
+Undefined command: "".  Try "help".
++cd "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01"
+"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01": Invalid argument.
++gcc -g "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem05.c" -o "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem05.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem05.exe"
+Undefined command: "".  Try "help".
++cd "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01"
+"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01": Invalid argument.
++gdb ./problem05
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem05_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem04_debug.log.
++set trace-commands on
++cd "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01"
+"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01": Invalid argument.
++gcc -g "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem05.c" -o "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem05.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem05.exe"
+Undefined command: "".  Try "help".
++"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem05.exe"
+Undefined command: "".  Try "help".
++gdb ./problem05
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem05_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem04_debug.log.
++set trace-commands on
++cd "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01"
+"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01": Invalid argument.
++gcc -g "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem06.c" -o "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem06.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem06.exe"
+Undefined command: "".  Try "help".
++cd "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01"
+"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01": Invalid argument.
++gcc -g "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem07.c" -o "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem07.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem07.exe"
+Undefined command: "".  Try "help".
++cd "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01"
+"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01": Invalid argument.
++gdb ./problem08
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem08_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem04_debug.log.
++set trace-commands on
++cd "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01"
+"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01": Invalid argument.
++gcc -g "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem08.c" -o "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem08.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem08.exe"
+Undefined command: "".  Try "help".
++cd "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01"
+"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01": Invalid argument.
++gcc -g "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem09.c" -o "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem09.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem09.exe"
+Undefined command: "".  Try "help".
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 11/16/2023, 11:33:29 AM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++cd "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01"
+"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01": Invalid argument.
++gcc -g "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem10.c" -o "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem10.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem10.exe"
+Undefined command: "".  Try "help".
++cd "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01"
+"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01": Invalid argument.
++gcc -g "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem11.c" -o "c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem11.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem11.exe"
+Undefined command: "".  Try "help".

@@ -1,24 +1,33 @@
 // 07. Write a program to find the area of a triangle.
 #include<stdio.h>
-struct triangle 
+typedef struct triangle 
 {
 	float base;
-    float height;
+    float altitude;
     float area;
-};
-struct triangle input()
-{
-    struct triangle x;
+}Triangle;
+Triangle input_triangle()
+{   
+    Triangle x;
     printf("enter the base :");
     scanf("%f",&x.base);
-    printf("enter the height :");
-    scanf("%f",&x.height);
+    printf("enter the height : ");
+    scanf("%f",&x.altitude);
+    return x;
 }
-void area(struct triangle x.base,struct triangle x.height)
+void find_area(Triangle *t)
 {
-
+    t->area=0.5 * t->base * t->altitude;
+}
+void output(Triangle t)
+{
+    printf("area is %f", t.area);
 }
 int main()
-
-void find_area(Traingle *t);
-void output(Triangle t);
+{
+    Triangle t ;
+    t=input_triangle();
+    find_area(&t);
+    output(t);
+    return 0;
+}
