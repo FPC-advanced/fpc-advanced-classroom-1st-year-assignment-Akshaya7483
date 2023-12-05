@@ -1,14 +1,13 @@
 // 3. Write a program to check if the given number is prime
-// 03.  Write a program find whether a number is a composite number
 #include<stdio.h>
-int input()
+int input_number()
 {
     int x;
     printf("enter the number :");
     scanf("%d",&x);
     return x;
 }
-int is_composite(int n)
+int is_prime(int n)
 {
     int count=0;
     int i=1;
@@ -23,22 +22,22 @@ int is_composite(int n)
      return count;
 
 }
-void output(int a)
+void output(int result)
 {
-    if(a>1)
+    if(result==1)
     {
-        printf("it is not a number");
+        printf("it is a prime number");
     }
     else
     {
-        printf("it isa prime number");
+        printf("it is not a prime number");
     }
 }
 int main()
 {
-    int n,result,count;
-    n=input();
-    count=is_composite(n);
-    output(count);
+    int n,result;
+    n=input_number();
+    result=is_prime(n);
+    output(result);
     return 0;
 }

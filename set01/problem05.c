@@ -8,17 +8,15 @@ int input()
 }
 int compare(int a, int b, int c)
 {
-    int lar;
-    lar=a;
-    if(b>lar)
+    if(b>a)
     {
-        lar=b;
+        a=b;
     }
-    if(c>lar)
+    if(c>a)
     {
-        lar=c;
+        a=c;
     }
-    return lar;
+    return a;
 }
 void output(int a, int b, int c, int lar)
 {

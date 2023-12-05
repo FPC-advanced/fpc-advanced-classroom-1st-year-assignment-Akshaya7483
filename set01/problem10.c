@@ -10,21 +10,33 @@ int input(char *str1,char *str2)
 }
 int compute(char *str1,char *str2)
 {
-    int i = 0;
-    if(str1[i]==str2[i])
+    int count =0;
+   for(int i=0;str1[i]!='\0' &&  str2[i]!='\0';i++)
+   {
+            if(str1[i]!=str2[i])
+            {
+                count++;
+            } 
+   }
+   return count;
+}
+void output(int count)
+{
+    if(count<1)
     {
-        printf("they are same ");
+        printf("they are same");
     }
-if(str1[i]!=str2[i])
+    else
     {
-        printf("they are differ ");
+        printf("they are different");
     }
 }
-
 int main()
 {
       char str1[100], str2[100];
+      int count;
       input(str1,str2);
-      compute(str1,str2);
+      count=compute(str1,str2);
+      output(count);
       return 0;
 }

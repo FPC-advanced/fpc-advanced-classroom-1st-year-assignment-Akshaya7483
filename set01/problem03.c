@@ -7,11 +7,11 @@ int input()
     scanf("%d",&x);
     return x;
 }
-add(int a ,int b)
+int add(int a ,int b)
 {
     return a+b;
 }
-output(int a,int b ,int sum)
+void output(int a,int b ,int sum)
 {
     printf("%d+%d =%d",&a,&b,&sum);
 }

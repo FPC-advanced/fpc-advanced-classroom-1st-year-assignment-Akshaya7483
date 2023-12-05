@@ -1,0 +1,22 @@
+Compilation started at 12/4/2023, 9:29:35 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem02.c: In function 'input_triangle':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem02.c:5:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter x1: ");
+     ^~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem02.c:5:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem02.c:5:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem02.c:6:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%f", x1);
+     ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem02.c:6:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem02.c:6:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem02.c: In function 'output':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem02.c:28:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("forms an triangle \n");
+         ^~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem02.c:28:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem02.c:32:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("do not form traingle \n");
+         ^~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem02.c:32:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 12/4/2023, 9:29:36 PM

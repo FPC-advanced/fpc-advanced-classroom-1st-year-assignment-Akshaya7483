@@ -1,0 +1,51 @@
+Compilation started at 12/4/2023, 8:59:16 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c: In function 'input':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c:5:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("enter the distance : ");
+     ^~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c:5:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c:5:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c:6:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%f",x1);
+     ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c:6:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c:6:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c: In function 'find_distance':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c:18:7: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     d=sqrt(((x2-x1)*(x2-x1))+((y2-y1)*(y2-y1)));
+       ^~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c:18:7: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c:18:7: note: include '<math.h>' or provide a declaration of 'sqrt'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c: In function 'output':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c:23:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("%f",distance);
+     ^~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c:23:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c:28:11: warning: passing argument 1 of 'input' from incompatible pointer type [-Wincompatible-pointer-types]
+     input(&x1,&y1,&x2,&y2);
+           ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c:3:6: note: expected 'float *' but argument is of type 'int *'
+ void input(float *x1, float *y1, float *x2, float *y2)
+      ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c:28:15: warning: passing argument 2 of 'input' from incompatible pointer type [-Wincompatible-pointer-types]
+     input(&x1,&y1,&x2,&y2);
+               ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c:3:6: note: expected 'float *' but argument is of type 'int *'
+ void input(float *x1, float *y1, float *x2, float *y2)
+      ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c:28:19: warning: passing argument 3 of 'input' from incompatible pointer type [-Wincompatible-pointer-types]
+     input(&x1,&y1,&x2,&y2);
+                   ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c:3:6: note: expected 'float *' but argument is of type 'int *'
+ void input(float *x1, float *y1, float *x2, float *y2)
+      ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c:28:23: warning: passing argument 4 of 'input' from incompatible pointer type [-Wincompatible-pointer-types]
+     input(&x1,&y1,&x2,&y2);
+                       ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem01.c:3:6: note: expected 'float *' but argument is of type 'int *'
+ void input(float *x1, float *y1, float *x2, float *y2)
+      ^~~~~
+Compilation finished at 12/4/2023, 8:59:17 PM
+Compilation started at 12/4/2023, 9:05:54 PM
+Compilation finished at 12/4/2023, 9:05:54 PM

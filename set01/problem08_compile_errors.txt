@@ -1,2 +1,64 @@
 Compilation started at 11/16/2023, 11:32:56 AM
 Compilation finished at 11/16/2023, 11:32:57 AM
+Compilation started at 12/4/2023, 12:13:00 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem08.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem08.c:40:19: warning: passing argument 1 of 'sum_array' makes integer from pointer without a cast [-Wint-conversion]
+     sum=sum_array(a,sum,n);
+                   ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem08.c:19:5: note: expected 'int' but argument is of type 'int *'
+ int sum_array(int n,int a[n],int sum)
+     ^~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem08.c:40:21: warning: passing argument 2 of 'sum_array' makes pointer from integer without a cast [-Wint-conversion]
+     sum=sum_array(a,sum,n);
+                     ^~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem08.c:19:5: note: expected 'int *' but argument is of type 'int'
+ int sum_array(int n,int a[n],int sum)
+     ^~~~~~~~~
+Compilation finished at 12/4/2023, 12:13:00 PM
+Compilation started at 12/4/2023, 12:14:14 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem08.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem08.c:40:19: warning: passing argument 1 of 'sum_array' makes integer from pointer without a cast [-Wint-conversion]
+     sum=sum_array(a,sum,n);
+                   ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem08.c:19:5: note: expected 'int' but argument is of type 'int *'
+ int sum_array(int n,int a[n],int sum)
+     ^~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem08.c:40:21: warning: passing argument 2 of 'sum_array' makes pointer from integer without a cast [-Wint-conversion]
+     sum=sum_array(a,sum,n);
+                     ^~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem08.c:19:5: note: expected 'int *' but argument is of type 'int'
+ int sum_array(int n,int a[n],int sum)
+     ^~~~~~~~~
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem08.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/4/2023, 12:14:14 PM
+Compilation started at 12/4/2023, 12:19:03 PM
+Compilation finished at 12/4/2023, 12:19:04 PM
+Compilation started at 12/4/2023, 12:19:45 PM
+Compilation finished at 12/4/2023, 12:19:46 PM
+Compilation started at 12/4/2023, 12:20:01 PM
+Compilation finished at 12/4/2023, 12:20:02 PM
+Compilation started at 12/4/2023, 12:20:32 PM
+Compilation finished at 12/4/2023, 12:20:32 PM
+Compilation started at 12/4/2023, 12:22:31 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem08.c: In function 'sum_array':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem08.c:21:11: error: 'sum' redeclared as different kind of symbol
+     int i,sum=0;
+           ^~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem08.c:19:34: note: previous definition of 'sum' was here
+ int sum_array(int n,int a[n],int sum)
+                                  ^~~
+Compilation finished at 12/4/2023, 12:22:32 PM
+Compilation started at 12/4/2023, 12:22:50 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem08.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem08.c:40:9: error: too many arguments to function 'sum_array'
+     sum=sum_array(n,a,sum);
+         ^~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem08.c:19:5: note: declared here
+ int sum_array(int n,int a[n])
+     ^~~~~~~~~
+Compilation finished at 12/4/2023, 12:22:50 PM
+Compilation started at 12/4/2023, 12:23:42 PM
+Compilation finished at 12/4/2023, 12:23:43 PM
+Compilation started at 12/4/2023, 12:24:00 PM
+Compilation finished at 12/4/2023, 12:24:01 PM

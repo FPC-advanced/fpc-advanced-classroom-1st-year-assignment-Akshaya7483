@@ -1,0 +1,56 @@
+Compilation started at 12/4/2023, 10:12:05 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c: In function 'find_fibo':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c:14:16: warning: 'return' with a value, in function returning void
+         return 0;
+                ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c:10:6: note: declared here
+ void find_fibo(int n)
+      ^~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c:18:16: warning: 'return' with a value, in function returning void
+         return 1;
+                ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c:10:6: note: declared here
+ void find_fibo(int n)
+      ^~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c:22:16: warning: implicit declaration of function 'fibo' [-Wimplicit-function-declaration]
+         return(fibo(n-1) + fibo(n-2));
+                ^~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c:22:26: warning: 'return' with a value, in function returning void
+         return(fibo(n-1) + fibo(n-2));
+               ~~~~~~~~~~~^~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c:10:6: note: declared here
+ void find_fibo(int n)
+      ^~~~~~~~~
+C:\Users\eshwa\AppData\Local\Temp\ccidi5DF.o: In function `find_fibo':
+c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/set03/problem04.c:22: undefined reference to `fibo'
+c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/set03/problem04.c:22: undefined reference to `fibo'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/4/2023, 10:12:05 PM
+Compilation started at 12/4/2023, 10:21:44 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c: In function 'find_fibo':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c:14:16: warning: 'return' with a value, in function returning void
+         return 0;
+                ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c:10:6: note: declared here
+ void find_fibo(int n)
+      ^~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c:18:16: warning: 'return' with a value, in function returning void
+         return 1;
+                ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c:10:6: note: declared here
+ void find_fibo(int n)
+      ^~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c:22:16: warning: implicit declaration of function 'fibo' [-Wimplicit-function-declaration]
+         return(fibo(n-1) + fibo(n-2));
+                ^~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c:22:26: warning: 'return' with a value, in function returning void
+         return(fibo(n-1) + fibo(n-2));
+               ~~~~~~~~~~~^~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c:10:6: note: declared here
+ void find_fibo(int n)
+      ^~~~~~~~~
+C:\Users\eshwa\AppData\Local\Temp\ccsVPvbm.o: In function `find_fibo':
+c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/set03/problem04.c:22: undefined reference to `fibo'
+c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/set03/problem04.c:22: undefined reference to `fibo'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/4/2023, 10:21:44 PM
