@@ -27,7 +27,7 @@ int sum_array(int n,int a[n],int sum)
 }
 void output(int sum)
 {
-    printf("The sum is %d",sum);
+    printf("The sum is %d\n",sum);
 }
 
 int main()

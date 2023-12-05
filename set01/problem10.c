@@ -24,11 +24,11 @@ void output(int count)
 {
     if(count<1)
     {
-        printf("they are same");
+        printf("they are same\n");
     }
     else
     {
-        printf("they are different");
+        printf("they are different\n");
     }
 }
 int main()

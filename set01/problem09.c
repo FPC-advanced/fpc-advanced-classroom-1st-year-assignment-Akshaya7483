@@ -29,7 +29,7 @@ float mysqrt(float n)
 
 void output(float x, float root)
 {
-    printf("sqrt of %f is %f",x,root);
+    printf("sqrt of %f is %f\n",x,root);
 }
 int main(void)
 {

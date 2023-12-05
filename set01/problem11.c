@@ -23,7 +23,7 @@ struct complex add(struct complex a,struct complex b)
 }
 void output(struct complex sum)
 {
-    printf("sum of complex numbers is %d + %fi",sum.real,sum.img);
+    printf("sum of complex numbers is %d + %fi\n",sum.real,sum.img);
 }
 int main()
 {
