@@ -54,3 +54,35 @@ c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-ass
 c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/set03/problem04.c:22: undefined reference to `fibo'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 12/4/2023, 10:21:44 PM
+Compilation started at 12/5/2023, 11:48:33 AM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c: In function 'find_fibo':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c:23:13: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+             print("%d",j);
+             ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c:42:9: error: redeclaration of 'fibo' with no linkage
+     int fibo;
+         ^~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c:41:11: note: previous declaration of 'fibo' was here
+     int n,fibo;
+           ^~~~
+Compilation finished at 12/5/2023, 11:48:33 AM
+Compilation started at 12/5/2023, 11:48:57 AM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c: In function 'find_fibo':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem04.c:23:13: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+             print("%d",j);
+             ^~~~~
+C:\Users\eshwa\AppData\Local\Temp\ccMKjGHb.o: In function `find_fibo':
+c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/set03/problem04.c:23: undefined reference to `print'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/5/2023, 11:48:58 AM
+Compilation started at 12/5/2023, 11:49:13 AM
+Compilation finished at 12/5/2023, 11:49:13 AM
+Compilation started at 12/5/2023, 11:50:05 AM
+Compilation finished at 12/5/2023, 11:50:06 AM
+Compilation started at 12/5/2023, 11:52:00 AM
+Compilation finished at 12/5/2023, 11:52:00 AM
+Compilation started at 12/5/2023, 11:58:27 AM
+Compilation finished at 12/5/2023, 11:58:27 AM
+Compilation started at 12/5/2023, 11:59:23 AM
+Compilation finished at 12/5/2023, 11:59:23 AM

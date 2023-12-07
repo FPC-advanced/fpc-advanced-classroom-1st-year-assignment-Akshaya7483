@@ -7,31 +7,44 @@ int input()
     scanf("%d", &n);
     return n;
 }
-void find_fibo(int n)
+int find_fibo(int n)
 {
-    if (n==0)
-    {
-        return 0;
-    }
-    else if (n==1)
-    {
-        return 1;
-    }
-    else
-    {
-        return(fibo(n-1) + fibo(n-2));
+    int i=0;
+    int j=1;
+    while(i<=n)
+    {   if(n==j || n==i)
+        {
+            return n;
+        }
+         if(j>=i)
+        {
+            i=i+j;
+            printf("%d,",i);
+        }
+        else
+        {
+            j=i+j;
+            printf("%d,",j);
+        }
+       
     }
 }
-void output(int n, int fibo)
+void output(int fibo,int n)
 {
-    printf("The %d number in fibonacci series is %d\n",n,fibo);
+    if(n==fibo)
+        {
+            printf("it is a fibonacci series \n");
+        }
+    else
+    {
+        printf("The number in not fibonacci series \n");
+    }
 }
 int main()
 {
-    int n;
-    int fibo;
+    int n,fibo;
     n=input();
-    find_fibo(n);
+    fibo=find_fibo(n);
     output(n,fibo);
     return 0;
 }

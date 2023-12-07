@@ -1,0 +1,27 @@
+Compilation started at 12/7/2023, 5:54:27 AM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem01.c: In function 'add':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem01.c:16:12: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     res_num=num1*den2+num2*den1;
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem01.c:17:12: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     res_den=den1*den2;
+            ^
+Compilation finished at 12/7/2023, 5:54:28 AM
+Compilation started at 12/7/2023, 5:55:05 AM
+Compilation finished at 12/7/2023, 5:55:06 AM
+Compilation started at 12/7/2023, 5:56:13 AM
+Compilation finished at 12/7/2023, 5:56:14 AM
+Compilation started at 12/7/2023, 5:57:40 AM
+Compilation finished at 12/7/2023, 5:57:41 AM
+Compilation started at 12/7/2023, 5:58:06 AM
+Compilation finished at 12/7/2023, 5:58:07 AM
+Compilation started at 12/7/2023, 5:59:10 AM
+Compilation finished at 12/7/2023, 5:59:11 AM
+Compilation started at 12/7/2023, 5:59:56 AM
+Compilation finished at 12/7/2023, 5:59:56 AM
+Compilation started at 12/7/2023, 6:00:52 AM
+Compilation finished at 12/7/2023, 6:00:53 AM
+Compilation started at 12/7/2023, 6:01:09 AM
+Compilation finished at 12/7/2023, 6:01:10 AM
+Compilation started at 12/7/2023, 3:05:49 PM
+Compilation finished at 12/7/2023, 3:05:49 PM

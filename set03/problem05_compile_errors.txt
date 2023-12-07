@@ -1,2 +1,51 @@
 Compilation started at 12/4/2023, 10:01:53 PM
 Compilation finished at 12/4/2023, 10:01:54 PM
+Compilation started at 12/5/2023, 12:27:40 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem05.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem05.c:24:18: warning: passing argument 2 of 'init_array' makes pointer from integer without a cast [-Wint-conversion]
+     init_array(n,a[n]);
+                  ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem05.c:10:6: note: expected 'int *' but argument is of type 'int'
+ void init_array(int n, int a[n])
+      ^~~~~~~~~~
+Compilation finished at 12/5/2023, 12:27:41 PM
+Compilation started at 12/5/2023, 12:28:49 PM
+Compilation finished at 12/5/2023, 12:28:49 PM
+Compilation started at 12/5/2023, 12:29:44 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem05.c: In function 'init_array':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem05.c:16:9: error: expected ';' before 'printf'
+         printf("%d",a[i]);
+         ^~~~~~
+Compilation finished at 12/5/2023, 12:29:44 PM
+Compilation started at 12/5/2023, 12:29:54 PM
+Compilation finished at 12/5/2023, 12:29:54 PM
+Compilation started at 12/5/2023, 12:32:33 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem05.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem05.c:29:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'init_array'
+     init_array(n,a);
+     ^~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem05.c:29:18: error: 'a' undeclared (first use in this function)
+     init_array(n,a);
+                  ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem05.c:29:18: note: each undeclared identifier is reported only once for each function it appears in
+Compilation finished at 12/5/2023, 12:32:33 PM
+Compilation started at 12/5/2023, 12:33:23 PM
+Compilation finished at 12/5/2023, 12:33:24 PM
+Compilation started at 12/7/2023, 3:03:51 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem05.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem05.c:25:12: warning: passing argument 1 of 'find_area' from incompatible pointer type [-Wincompatible-pointer-types]
+  find_area(&t);
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem05.c:13:6: note: expected 'Triangle * {aka struct _triangle *}' but argument is of type 'Triangle (*)[(sizetype)(n)]'
+ void find_area(Triangle *t);
+      ^~~~~~~~~
+Compilation finished at 12/7/2023, 3:03:52 PM
+Compilation started at 12/7/2023, 3:04:59 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem05.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem05.c:76:12: warning: passing argument 1 of 'find_area' from incompatible pointer type [-Wincompatible-pointer-types]
+  find_area(&t);
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set03\problem05.c:31:6: note: expected 'Triangle * {aka struct _triangle *}' but argument is of type 'Triangle (*)[(sizetype)(n)]'
+ void find_area(Triangle *t)
+      ^~~~~~~~~
+Compilation finished at 12/7/2023, 3:04:59 PM
