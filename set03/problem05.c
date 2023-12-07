@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 struct _triangle
 {
 	float base, altitude, area;
