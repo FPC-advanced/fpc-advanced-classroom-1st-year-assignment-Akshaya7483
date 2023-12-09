@@ -1,41 +1,36 @@
 // 05.  Write a program to find GCD _(HCF)_ of two numbers.
-#include <stdio.h>
-int input();
-int find_gcd(int a, int b);
-void output(int a, int b, int gcd);
+#include<stdio.h>
+int input()
+{
+    int x;
+    printf("enter the number :");
+    scanf("%d",&x);
+    return x;
+}
 
+int GCD(int a ,int b)
+{
+    int gcd;
+    int i=1;
+    while(i<=a && i<=b)
+    {
+        if(a%i==0 && b%i==0)
+        {
+            gcd=i;
+        }
+        i++;
+    }
+    return gcd;
+}
+void output(int a,int b,int gcd)
+{
+    printf("GCD of %d & %d = %d",a,b,gcd);
+}
 int main()
 {
     int a,b,gcd;
     a=input();
     b=input();
-    gcd=find_gcd(a,b);
+    gcd=GCD(a,b);
     output(a,b,gcd);
-    return 0;
-}
-int input()
-{
-    int a;
-    printf("Enter the number:\n");
-    scanf("%d",&a);
-    return a;
-}
-int find_gcd(int a, int b)
-{
-    while(a!=b)
-    {
-        if (a>b)
-        {
-            a=a-b;
-        }
-        else
-        {
-          b=b-a;  
-        }
-    }
-    return a;
-}
-void output(int a, int b, int gcd)
-{
-    printf("The GCD of %d and %d is %d\n",a,b,gcd);
 }
