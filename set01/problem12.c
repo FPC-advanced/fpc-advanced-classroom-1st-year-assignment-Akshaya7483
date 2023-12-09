@@ -1,43 +1,64 @@
-// 12. Write a C program to find the sum of _n_ complex numbers
-#include <stdio.h>
-struct complex
+#include<stdio.h>
+typedef struct Complex
+{ 
+    float imag,real;
+}complex;
+void get_n(int *n)
 {
-    int real;
-    float imag;
-};
-struct complex inputComplex()
-{
-    struct complex num;
-    printf("Enter the real part: ");
-    scanf("%d", &num.real);
-    printf("Enter the imaginary part: ");
-    scanf("%f", &num.imag);
-    return num;
+    printf("enter the size : ");
+    scanf("%d",n);
 }
-struct complex addComplex(struct complex a, struct complex b)
+complex input_complex()
 {
-    struct complex sum;
-    sum.real = a.real + b.real;
-    sum.imag = a.imag + b.imag;
+    complex x;
+    printf("enter the real part :");
+    scanf("%f",&x.real);
+    printf("enter the imaginary part :");
+    scanf("%f",&x.imag);
+    return x;
+}
+void input_n_complex(int n, complex c[])
+{
+    for(int i=0;i<n;i++)
+    {
+       c[i]=input_complex();
+    }
+}
+complex add(complex a,complex b)
+{
+    a.real=a.real+b.real;
+    a.imag=a.imag+b.imag;
+    return a;
+}
+complex add_n_complex(int n, complex c[n])  //c[n] = c[] = *c
+{  complex sum=c[0];
+    for(int i=1;i<n;i++)
+    {
+        sum=add(sum,c[i]);
+    }
     return sum;
 }
-void outputComplex(struct complex num)
+void output(int n, complex c[n], complex sum)
 {
-    printf("Complex number: %ld + %lfi\n", num.real, num.imag);
+    for(int i=0;i<n;i++)
+    {
+        printf("%f+%fi ",c[i].real,c[i].imag);
+         if(i!=n-1)
+         {
+             printf(" + ");
+         }
+         else{
+             printf(" = %f + %fi",sum.real,sum.imag);
+         }
+    }
 }
 int main()
 {
     int n;
-    printf("Enter the number of complex numbers: ");
-    scanf("%d", &n);
-    struct complex sum;
-    sum.real= 0;
-    sum.imag = 0;
-    for (int i = 0; i < n; i++)
-    {
-        struct complex num = inputComplex();
-        sum = addComplex(sum, num);
-    }
-    printf("Sum of %d complex numbers: %d + %fi\n", n, sum.real, sum.imag);
-    return 0;
+    get_n(&n);
+    complex c[n];
+    input_n_complex(n,c);
+    complex sum;
+    sum=add_n_complex(n,c);
+    output(n,c,sum);
 }

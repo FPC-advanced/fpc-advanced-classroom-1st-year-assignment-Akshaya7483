@@ -1,36 +1,35 @@
-// 11. Write a C program to find the sum of 2 complex numbers
 #include<stdio.h>
-struct complex
+typedef struct Complex
 {
     int real;
-    float img;
-};
-struct complex input()
+    float imag;
+}complex;
+complex input()
 {
-    struct complex x;
-    printf("enter the real value : ");
+    complex x;
+    printf("enter the real part :");
     scanf("%d",&x.real);
-    printf("enter the imaginary value : ");
-    scanf("%f",&x.img);
+    printf("enter the imaginary part :");
+    scanf("%f",&x.imag);
     return x;
 }
-struct complex add(struct complex a,struct complex b)
+complex compute(complex a,complex b)
 {
-    struct complex sum;
+    complex sum;
     sum.real=a.real+b.real;
-    sum.img=a.img+b.img;
+    sum.imag=a.imag+b.imag;
     return sum;
 }
-void output(struct complex sum)
+void output(complex sum)
 {
-    printf("sum of complex numbers is %d + %fi\n",sum.real,sum.img);
+    printf("The complex number is %d+%fi",sum.real,sum.imag);
 }
 int main()
 {
-    struct complex a,b,sum;
+    complex a,b,sum;
     a=input();
     b=input();
-    sum=add(a,b);
+    sum=compute(a,b);
     output(sum);
     return 0;
 }
