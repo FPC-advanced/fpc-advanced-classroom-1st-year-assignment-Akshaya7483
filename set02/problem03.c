@@ -10,34 +10,34 @@ int input()
 int is_composite(int n)
 {
     int count=0;
-    int i=1;
-    while(i!=n)
+    int i=2;
+    while(i!=n/2+1)
     {
-        if(n==(n/i)*i)
+        if(n==((n/i)*i)) // n%i==0;
         {
-             count++;
+            count++;
+            return count;
         }
         i++;
     }
-     return count;
-
+    return count;
 }
-void output(int a)
+void output(result)
 {
-    if(a>1)
+    if(result>0)
     {
-        printf("it is a composite number");
+        printf("it is a composite number\n");
     }
     else
     {
-        printf("it is not a composite number");
+        printf("it is not a composite number\n");
     }
 }
 int main()
 {
-    int n,result,count;
+    int n,result;
     n=input();
-    count=is_composite(n);
-    output(count);
+    result=is_composite(n);
+    output(result);
     return 0;
 }

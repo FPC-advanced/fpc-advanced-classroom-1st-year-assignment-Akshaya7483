@@ -1,61 +1,48 @@
-#include <stdio.h>
- int input_array_size()
+#include<stdio.h>
+int input()
 {
-    int a;
-    printf("Enter the array size:\n");
-    scanf("%d",&a);
-    return a;
+    int x;
+    printf("enter the array size :");
+    scanf("%d",&x);
+    return x;
 }
-void input_array(int n, int a[n])
+void input_array(int n,int a[n])
 {
-    int i;
-    printf("Enter the elements in the array:\n");
-    for( i=0;i<n;i++)
+    for(int i=0;i<n;i++)
     {
-        printf("Array elements:\n",i+1);
         scanf("%d",&a[i]);
     }
 }
-int is_composite(int n)
-{
-   int i ;
-   if (n <= 1)
-   {
-    return 0;
-   }
-   for(i = 2;i <= n/2; i++)
-   {
-    if (n % i== 0)
-    {
-        return 1;
-    }
-   }
-   return 0;
-}
-int sum_composite_numbers(int n, int a[n])
+int is_composite(int n,int a[n])
 {
     int sum=0;
     for(int i=0;i<n;i++)
     {
-        if(is_composite(a[i]))
+         int j=2;
+        while(j!=a[i]/2+1)
         {
-            sum +=a[i];
+            if(a[i]==((a[i]/j)*j)) // n%i==0;
+            {
+                sum=sum+a[i];
+                break;
+            }
+            j++;
         }
+
     }
     return sum;
 }
-void output(int sum)
+void output(int result)
 {
-    printf("The sum of the composite numbers are: %d\n",sum);
+    printf("the sum of n is %d",result);
 }
 int main()
 {
-    int n,sum;
-    n=input_array_size();
+    int n,result;
+    n=input();
     int a[n];
     input_array(n,a);
-    is_composite(n);
-    sum=sum_composite_numbers(n,a);
-    output(sum);
+    result=is_composite(n,a);
+    output(result);
     return 0;
 }
