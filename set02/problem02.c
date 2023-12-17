@@ -1,38 +1,40 @@
+// 02.  Write a program to find if a triangle is scalene.
+
+// > A triangle is scalene if all the three sides of the triangle are not equal to one another.
 #include<stdio.h>
-void input_side(int *a,int *b,int *c)
+int input_side()
 {
-    printf("enter the side :");
-    scanf("%d",a);
-    printf("enter the side :");
-    scanf("%d",b);
-    printf("enter the side :");
-    scanf("%d",c);
+    int x;
+    printf("the sides are :");
+    scanf("%d",&x);
+    return x;
 }
 int check_scalene(int a, int b, int c)
-{   
+{
     int count=0;
-   if(a==b || a==c || b==c)
-   {
-    count++;
-   }
-return count;
+    if(a!=b && b!=c && c!=a)
+    {
+        count++;
+    }
+    return count;
 }
-void output(int isscalene)
+void output(int a, int b, int c, int isscalene)
 {
     if(isscalene>0)
     {
-        printf("is not a scalene");
+        printf("it is a scalene triangle");
     }
     else
     {
-          printf("is a scalene");
+        printf("it is not  scalene");
     }
 }
 int main()
 {
-    int a,b,c,isscalene;
-    input_side(&a,&b,&c);
-    isscalene=check_scalene(a,b,c);
-    output(isscalene);
-    return 0;
+    int a,b,c,result;
+    a=input_side();
+    b=input_side();
+    c=input_side();
+    result=check_scalene(a,b,c);
+    output(a,b,c,result);
 }

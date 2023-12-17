@@ -1,0 +1,32 @@
+Compilation started at 12/16/2023, 9:02:58 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem05.c: In function 'input_size':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem05.c:5:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("enter the array size :");
+     ^~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem05.c:5:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem05.c:5:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem05.c:6:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%d",&x);
+     ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem05.c:6:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem05.c:6:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem05.c: In function 'input_array':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem05.c:11:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("enter the array elements :");
+    ^~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem05.c:11:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem05.c:14:9: warning: incompatible implicit declaration of built-in function 'scanf'
+         scanf("%d",&a[i]);
+         ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem05.c:14:9: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem05.c: In function 'output':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem05.c:33:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("the index of largest number is :%d",index);
+     ^~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem05.c:33:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem05.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem05.c:42:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("%d",index);
+     ^~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set04\problem05.c:42:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 12/16/2023, 9:02:59 PM

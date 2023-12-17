@@ -7,3 +7,71 @@ c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
  void find_area(Triangle *t);
       ^~~~~~~~~
 Compilation finished at 12/7/2023, 4:29:13 PM
+Compilation started at 12/16/2023, 8:15:40 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c: In function 'input_n':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:8:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("enter the number :");
+     ^~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:8:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:8:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:9:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%d",&x);
+     ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:9:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:9:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c: In function 'input_triangle':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:15:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("enter the base & height :");
+     ^~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:15:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:16:5: warning: incompatible implicit declaration of built-in function 'scanf'
+     scanf("%f  %f",&x.base,&x.height);
+     ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:16:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c: In function 'input_n_triangles':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:25:12: warning: 'return' with a value, in function returning void
+     return t;
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:19:6: note: declared here
+ void input_n_triangles(int n, triangle t[])
+      ^~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c: In function 'output':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:56:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("the smallest triangle is base %f height %f and with the area  %f",t->base,t->height,t->area);
+     ^~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:56:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 12/16/2023, 8:15:40 PM
+Compilation started at 12/16/2023, 8:16:22 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c: In function 'input_n':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:8:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("enter the number :");
+     ^~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:8:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:8:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:9:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%d",&x);
+     ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:9:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:9:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c: In function 'input_triangle':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:15:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("enter the base & height :");
+     ^~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:15:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:16:5: warning: incompatible implicit declaration of built-in function 'scanf'
+     scanf("%f  %f",&x.base,&x.height);
+     ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:16:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c: In function 'input_n_triangles':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:25:12: warning: 'return' with a value, in function returning void
+     return t;
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:19:6: note: declared here
+ void input_n_triangles(int n, triangle t[])
+      ^~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c: In function 'output':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:56:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("the smallest triangle is base %f height %f and with the area  %f",t->base,t->height,t->area);
+     ^~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem08.c:56:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 12/16/2023, 8:16:22 PM
