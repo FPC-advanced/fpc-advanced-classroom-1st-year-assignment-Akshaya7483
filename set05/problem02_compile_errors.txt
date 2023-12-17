@@ -1,0 +1,8 @@
+Compilation started at 12/17/2023, 9:42:17 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set05\problem02.c: In function 'find_weight':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set05\problem02.c:15:45: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     weight =3.1415 *((radius*radius*radius)*sqrt(height * length));
+                                             ^~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set05\problem02.c:15:45: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set05\problem02.c:15:45: note: include '<math.h>' or provide a declaration of 'sqrt'
+Compilation finished at 12/17/2023, 9:42:18 PM
