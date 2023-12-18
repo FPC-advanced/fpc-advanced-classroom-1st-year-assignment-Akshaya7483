@@ -1,42 +1,45 @@
 // . Write a C program to compare two strings, character by character.
 #include<stdio.h>
-int input(char *str1,char *str2)
-{
-    printf("Enter the first string: ");
-    scanf("%s", str1);
+void input(char *a,char *b)
+{   printf("enter string 1 : ");
+    scanf("%s",a);
+      printf("enter string 2 : ");
+    scanf("%s",b);
+}
+int compute(char *a,char *b) //for ex : a[]=heart b[]=hello
+{   int i=0;
+    while(a[i]!='\0'|| b[i]!='\0')  
+    {
+        
+            if(a[i]!=b[i])  // checks for each alphabets , h ==h ,e==e ,a!=l
+               {
+                    return a[i]-b[i]; // so a-l --->97-109 = -12 
+               }
 
-    printf("Enter the second string: ");
-    scanf("%s", str2);
-}
-int compute(char *str1,char *str2)
-{
-    int count =0;
-   for(int i=0;str1[i]!='\0' &&  str2[i]!='\0';i++)
-   {
-            if(str1[i]!=str2[i])
-            {
-                count++;
-            } 
-   }
-   return count;
-}
-void output(int count)
-{
-    if(count<1)
-    {
-        printf("they are same\n");
+          i++;
+        }
+        return 0;
     }
-    else
+
+void output(char *a,char *b,int c)
+{
+    if(c==0)
     {
-        printf("they are different\n");
+        printf("both are equal");
+    }
+    else if(c>0)
+    {
+        printf("%s is greater than %s ",a,b);
+    }
+    else{
+         printf("%s is greater than %s ",b,a);
     }
 }
 int main()
 {
-      char str1[100], str2[100];
-      int count;
-      input(str1,str2);
-      count=compute(str1,str2);
-      output(count);
-      return 0;
+    char a[30],b[30],c;
+    input(a,b);
+    c=compute(a,b);
+    output(a,b,c);
+    return 0;
 }

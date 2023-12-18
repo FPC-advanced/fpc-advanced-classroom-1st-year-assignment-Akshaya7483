@@ -6,3 +6,14 @@ Compilation started at 12/4/2023, 12:25:41 PM
 Compilation finished at 12/4/2023, 12:25:42 PM
 Compilation started at 12/4/2023, 12:32:15 PM
 Compilation finished at 12/4/2023, 12:32:16 PM
+Compilation started at 12/18/2023, 9:06:20 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem10.c: In function 'compute':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem10.c:11:17: warning: multi-character character constant [-Wmultichar]
+     while(a[i]!='/0'|| b[i]!='/0')
+                 ^~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set01\problem10.c:11:30: warning: multi-character character constant [-Wmultichar]
+     while(a[i]!='/0'|| b[i]!='/0')
+                              ^~~~
+Compilation finished at 12/18/2023, 9:06:20 PM
+Compilation started at 12/18/2023, 9:07:49 PM
+Compilation finished at 12/18/2023, 9:07:49 PM

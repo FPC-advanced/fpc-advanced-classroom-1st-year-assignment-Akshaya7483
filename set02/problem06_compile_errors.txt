@@ -1,2 +1,12 @@
 Compilation started at 12/7/2023, 4:28:50 PM
 Compilation finished at 12/7/2023, 4:28:50 PM
+Compilation started at 12/18/2023, 9:30:52 PM
+Compilation finished at 12/18/2023, 9:30:52 PM
+Compilation started at 12/18/2023, 9:33:30 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem06.c: In function 'input_string':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\set02\problem06.c:5:5: error: expected ';' before 'scanf'
+     scanf("%s",a);
+     ^~~~~
+Compilation finished at 12/18/2023, 9:33:30 PM
+Compilation started at 12/18/2023, 9:33:38 PM
+Compilation finished at 12/18/2023, 9:33:38 PM
