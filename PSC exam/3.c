@@ -6,11 +6,11 @@ int number_of_players()
     scanf("%d",&x);
     return x;
 }
-
+int name_players
 int main()
 {
     int n;
     n=number_of_players();
     char str1[n],str2[n];
-    name_players(n,str1[n]);
+    name_players(n,str1);
 }
