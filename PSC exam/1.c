@@ -10,7 +10,7 @@ int find_fact(int n)
 {
 	int i=1;
     int j=2;
-	while(i=1;i!=n/2)
+	while(i!=n/2)
 	{
 		j*=j*i;
         if(j==n)
@@ -18,7 +18,7 @@ int find_fact(int n)
             return 1;
         }
 	}
-    j++;
+    j++,i++;
     return 0;
 }
 void output(int n,int fact)
