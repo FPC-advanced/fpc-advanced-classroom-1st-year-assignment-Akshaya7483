@@ -30,7 +30,7 @@ int fact(int a[])
     j++;
     return count;
 }
-void find_n_fact(int n,int a[],int b[])
+int find_n_fact(int n,int a[],int b[])
 {
     int i,count=0;
     for(i=0;i<n;i++)
@@ -59,7 +59,7 @@ int main()
     find_n_fact(n,a,b);
     for(int i=0;i<n;i++)
     {
-        printf("%d\n",a[i]);
+        printf("%d\n",b[i]);
     }
     output(n,b);
     return 0;
