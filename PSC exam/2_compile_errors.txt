@@ -1,0 +1,44 @@
+Compilation started at 12/19/2023, 11:27:01 AM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:21:12: warning: passing argument 2 of 'input_n' from incompatible pointer type [-Wincompatible-pointer-types]
+  input_n(n,&a);
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:8:5: note: expected 'int *' but argument is of type 'int (*)[(sizetype)(n)]'
+ int input_n(int n,int *a)
+     ^~~~~~~
+Compilation finished at 12/19/2023, 11:27:02 AM
+Compilation started at 12/19/2023, 11:27:48 AM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'input_n':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:15:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+     return a;
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:22:12: warning: passing argument 2 of 'input_n' from incompatible pointer type [-Wincompatible-pointer-types]
+  input_n(n,&a);
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:8:5: note: expected 'int *' but argument is of type 'int (*)[(sizetype)(n)]'
+ int input_n(int n,int *a)
+     ^~~~~~~
+Compilation finished at 12/19/2023, 11:27:49 AM
+Compilation started at 12/19/2023, 11:28:24 AM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:22:12: warning: passing argument 2 of 'input_n' from incompatible pointer type [-Wincompatible-pointer-types]
+  input_n(n,&a);
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:8:5: note: expected 'int *' but argument is of type 'int (*)[(sizetype)(n)]'
+ int input_n(int n,int *a)
+     ^~~~~~~
+Compilation finished at 12/19/2023, 11:28:24 AM
+Compilation started at 12/19/2023, 11:29:37 AM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:21:12: warning: passing argument 2 of 'input_n' from incompatible pointer type [-Wincompatible-pointer-types]
+  input_n(n,&a);
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:8:6: note: expected 'int *' but argument is of type 'int (*)[(sizetype)(n)]'
+ void input_n(int n,int *a)
+      ^~~~~~~
+Compilation finished at 12/19/2023, 11:29:38 AM
+Compilation started at 12/19/2023, 11:30:16 AM
+Compilation finished at 12/19/2023, 11:30:17 AM
+Compilation started at 12/19/2023, 11:31:41 AM
+Compilation finished at 12/19/2023, 11:31:42 AM

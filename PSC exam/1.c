@@ -1,0 +1,30 @@
+#include<stdio.h>
+int input()
+{
+	int x;
+	printf("enter the number :");
+	scanf("%d",&x);
+	return x;
+}
+int find_fact(int n)
+{
+    int j=n; 
+	for(int i=2;i<n;i++)
+	{                                         
+		j=j/i; 
+	}
+	return j;
+}
+void output(int n,int fact)
+{
+	printf("the factorial of %d is %d",n,fact);
+}
+int main()
+{
+	int n,fact;
+	n=input();
+    printf("%d",n);
+	fact=find_fact(n);
+	output(n,fact);
+    return 0;
+}

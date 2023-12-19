@@ -1,0 +1,95 @@
+Compilation started at 12/19/2023, 10:27:17 AM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.c: In function 'input_n':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.c:15:10: error: conflicting types for 'x'
+     frit x=x[0];
+          ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.c:14:10: note: previous declaration of 'x' was here
+     frit x[n];
+          ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.c:15:13: error: subscripted value is neither array nor pointer nor vector
+     frit x=x[0];
+             ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.c:18:22: error: subscripted value is neither array nor pointer nor vector
+         scanf("%f",&x[i].height);
+                      ^
+Compilation finished at 12/19/2023, 10:27:17 AM
+Compilation started at 12/19/2023, 10:30:55 AM
+Compilation finished at 12/19/2023, 10:30:56 AM
+Compilation started at 12/19/2023, 10:31:18 AM
+Compilation finished at 12/19/2023, 10:31:19 AM
+Compilation started at 12/19/2023, 10:32:25 AM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.c: In function 'input_n':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.c:21:12: error: incompatible types when returning type 'frit * {aka struct fritacole *}' but 'frit {aka struct fritacole}' was expected
+     return x;
+            ^
+Compilation finished at 12/19/2023, 10:32:26 AM
+Compilation started at 12/19/2023, 10:50:37 AM
+Compilation finished at 12/19/2023, 10:50:38 AM
+Compilation started at 12/19/2023, 10:51:06 AM
+Compilation finished at 12/19/2023, 10:51:06 AM
+Compilation started at 12/19/2023, 10:51:14 AM
+Compilation finished at 12/19/2023, 10:51:14 AM
+Compilation started at 12/19/2023, 10:52:25 AM
+Compilation finished at 12/19/2023, 10:52:25 AM
+Compilation started at 12/19/2023, 10:52:42 AM
+Compilation finished at 12/19/2023, 10:52:43 AM
+Compilation started at 12/19/2023, 10:53:25 AM
+Compilation finished at 12/19/2023, 10:53:26 AM
+Compilation started at 12/19/2023, 10:53:41 AM
+Compilation finished at 12/19/2023, 10:53:42 AM
+Compilation started at 12/19/2023, 10:54:36 AM
+Compilation finished at 12/19/2023, 10:54:36 AM
+Compilation started at 12/19/2023, 10:54:49 AM
+Compilation finished at 12/19/2023, 10:54:50 AM
+Compilation started at 12/19/2023, 10:55:12 AM
+Compilation finished at 12/19/2023, 10:55:12 AM
+Compilation started at 12/19/2023, 10:55:33 AM
+Compilation finished at 12/19/2023, 10:55:34 AM
+Compilation started at 12/19/2023, 10:56:27 AM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.c:10:1: error: expected identifier or '(' before '{' token
+ {
+ ^
+Compilation finished at 12/19/2023, 10:56:27 AM
+Compilation started at 12/19/2023, 10:56:41 AM
+Compilation finished at 12/19/2023, 10:56:42 AM
+Compilation started at 12/19/2023, 10:57:15 AM
+Compilation finished at 12/19/2023, 10:57:16 AM
+Compilation started at 12/19/2023, 10:58:27 AM
+Compilation finished at 12/19/2023, 10:58:27 AM
+Compilation started at 12/19/2023, 10:59:40 AM
+Compilation finished at 12/19/2023, 10:59:40 AM
+Compilation started at 12/19/2023, 10:59:53 AM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.c: In function 'find_fact':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.c:17:9: error: 'j' undeclared (first use in this function)
+  return j;
+         ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.c:17:9: note: each undeclared identifier is reported only once for each function it appears in
+Compilation finished at 12/19/2023, 10:59:53 AM
+Compilation started at 12/19/2023, 11:00:35 AM
+Compilation finished at 12/19/2023, 11:00:35 AM
+Compilation started at 12/19/2023, 11:01:30 AM
+Compilation finished at 12/19/2023, 11:01:31 AM
+Compilation started at 12/19/2023, 11:02:20 AM
+Compilation finished at 12/19/2023, 11:02:20 AM
+Compilation started at 12/19/2023, 11:03:00 AM
+Compilation finished at 12/19/2023, 11:03:00 AM
+Compilation started at 12/19/2023, 11:06:53 AM
+Compilation finished at 12/19/2023, 11:06:53 AM
+Compilation started at 12/19/2023, 11:07:45 AM
+Compilation finished at 12/19/2023, 11:07:45 AM
+Compilation started at 12/19/2023, 11:44:06 AM
+Compilation finished at 12/19/2023, 11:44:07 AM
+Compilation started at 12/19/2023, 11:44:26 AM
+Compilation finished at 12/19/2023, 11:44:27 AM
+Compilation started at 12/19/2023, 11:45:00 AM
+Compilation finished at 12/19/2023, 11:45:00 AM
+Compilation started at 12/19/2023, 11:45:56 AM
+Compilation finished at 12/19/2023, 11:45:56 AM
+Compilation started at 12/19/2023, 11:48:34 AM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 11:48:34 AM
+Compilation started at 12/19/2023, 11:48:47 AM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 11:48:48 AM
