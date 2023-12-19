@@ -14,7 +14,6 @@ int input_n(int n,int a[])
 	{
 		scanf("%d",&a[i]);
 	}
-    
     return a;
 }
 int fact(int a[])
