@@ -25,20 +25,23 @@ int fact(int a[])
         if(j==a[i])
         {
             count++;
+            break;
         }
 	}
     j++;
     return count;
+    
 }
 int find_n_fact(int n,int a[],int b[])
 {
-    int i,count=0;
+    int i,c,count=0;
     for(i=0;i<n;i++)
     {
         count=fact(a[i]);
         if(count>0)
         {
-             a=a[i];
+             c=a[i];
+             b[i]=c;
         }
     }
     return b;
@@ -47,7 +50,7 @@ void output(int n,int b[])
 {
     for(int i=0;i<n;i++)
     {
-        printf("%d\n",b[i]);
+        printf("the new updated array is %d\n",b[i]);
     }
 }
 int main()

@@ -489,3 +489,99 @@ c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
      return b;
             ^
 Compilation finished at 12/19/2023, 3:33:31 PM
+Compilation started at 12/19/2023, 3:34:34 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'input_n':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:17:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+     return a;
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'find_n_fact':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:38:20: warning: passing argument 1 of 'fact' makes pointer from integer without a cast [-Wint-conversion]
+         count=fact(a[i]);
+                    ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:19:5: note: expected 'int *' but argument is of type 'int'
+ int fact(int a[])
+     ^~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:45:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+     return b;
+            ^
+Compilation finished at 12/19/2023, 3:34:34 PM
+Compilation started at 12/19/2023, 3:35:36 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'input_n':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:17:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+     return a;
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'find_n_fact':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:38:20: warning: passing argument 1 of 'fact' makes pointer from integer without a cast [-Wint-conversion]
+         count=fact(a[i]);
+                    ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:19:5: note: expected 'int *' but argument is of type 'int'
+ int fact(int a[])
+     ^~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:45:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+     return b;
+            ^
+Compilation finished at 12/19/2023, 3:35:36 PM
+Compilation started at 12/19/2023, 3:38:33 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'input_n':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:17:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+     return a;
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'find_n_fact':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:39:20: warning: passing argument 1 of 'fact' makes pointer from integer without a cast [-Wint-conversion]
+         count=fact(a[i]);
+                    ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:19:5: note: expected 'int *' but argument is of type 'int'
+ int fact(int a[])
+     ^~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:46:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+     return b;
+            ^
+Compilation finished at 12/19/2023, 3:38:34 PM
+Compilation started at 12/19/2023, 3:39:00 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'input_n':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:17:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+     return a;
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'find_n_fact':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:40:20: warning: passing argument 1 of 'fact' makes pointer from integer without a cast [-Wint-conversion]
+         count=fact(a[i]);
+                    ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:19:5: note: expected 'int *' but argument is of type 'int'
+ int fact(int a[])
+     ^~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:47:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+     return b;
+            ^
+Compilation finished at 12/19/2023, 3:39:00 PM
+Compilation started at 12/19/2023, 3:41:09 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'input_n':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:17:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+     return a;
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'find_n_fact':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:40:20: warning: passing argument 1 of 'fact' makes pointer from integer without a cast [-Wint-conversion]
+         count=fact(a[i]);
+                    ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:19:5: note: expected 'int *' but argument is of type 'int'
+ int fact(int a[])
+     ^~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:47:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+     return b;
+            ^
+Compilation finished at 12/19/2023, 3:41:09 PM
+Compilation started at 12/19/2023, 3:42:20 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'input_n':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:17:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+     return a;
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'find_n_fact':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:39:20: warning: passing argument 1 of 'fact' makes pointer from integer without a cast [-Wint-conversion]
+         count=fact(a[i]);
+                    ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:19:5: note: expected 'int *' but argument is of type 'int'
+ int fact(int a[])
+     ^~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:46:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+     return b;
+            ^
+Compilation finished at 12/19/2023, 3:42:20 PM
