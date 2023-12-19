@@ -59,7 +59,7 @@ int main()
     find_n_fact(n,a,b);
     for(int i=0;i<n;i++)
     {
-        printf("%d\n",b[i]);
+        printf("%d\n",a[i]);
     }
     output(n,b);
     return 0;
