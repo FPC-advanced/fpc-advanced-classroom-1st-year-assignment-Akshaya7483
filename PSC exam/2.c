@@ -39,14 +39,13 @@ void find_n_fact(int n,int a[],int b[])
     for(i=0;i<n;i++)
     {
         a[i]=fact(a[i]);
-        printf("%d",b[i]);
     }
 }
-void output(int n,int b[])
+void output(int n,int a[])
 {
     for(int i=0;i<n;i++)
     {
-        printf("%d",b[i]);
+        printf("%d",a[i]);
     }
 }
 int main()
@@ -56,6 +55,6 @@ int main()
 	int a[n],b[n];
 	input_n(n,a);
     find_n_fact(n,a,b);
-    output(n,b);
+    output(n,a);
     return 0;
 }
