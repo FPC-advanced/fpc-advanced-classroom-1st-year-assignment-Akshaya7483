@@ -28,18 +28,19 @@ int fact(int a[])
         }
 	}
     j++;
-    if(count>0)
-    {
-        return a[i];
-    }
+    
 }
 void find_n_fact(int n,int a[],int b[])
 {
     int i;
     for(i=0;i<n;i++)
     {
-        =fact(a[i]);
-        scanf("%d",&b[i]);
+        count=fact(a[i]);
+        if(count>0)
+        {
+             return a[i];
+        }
+        
     }
     return b;
 }
