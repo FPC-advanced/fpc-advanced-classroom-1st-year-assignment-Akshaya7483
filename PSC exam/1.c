@@ -1,15 +1,15 @@
 #include<stdio.h>
-
-int input() {
+int input() 
+{
     int x;
     printf("Enter the number: ");
     scanf("%d", &x);
     return x;
 }
 
-int is_factorial(int n) {
+int is_factorial(int n) 
+{
     int i = 1, fact = 1;
-
     while (fact < n) 
     {
         i++;

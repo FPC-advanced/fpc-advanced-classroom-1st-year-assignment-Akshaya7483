@@ -224,3 +224,12 @@ c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
 Compilation finished at 12/19/2023, 4:05:08 PM
 Compilation started at 12/19/2023, 4:05:25 PM
 Compilation finished at 12/19/2023, 4:05:26 PM
+Compilation started at 12/19/2023, 4:09:14 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.c:43:7: warning: implicit declaration of function 'find_fact' [-Wimplicit-function-declaration]
+  fact=find_fact(n);
+       ^~~~~~~~~
+C:\Users\eshwa\AppData\Local\Temp\ccUXYIYm.o: In function `main':
+c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/PSC exam/1.c:43: undefined reference to `find_fact'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 4:09:15 PM
