@@ -117,3 +117,69 @@ Compilation started at 12/19/2023, 12:08:02 PM
 Compilation finished at 12/19/2023, 12:08:03 PM
 Compilation started at 12/19/2023, 12:08:42 PM
 Compilation finished at 12/19/2023, 12:08:42 PM
+Compilation started at 12/19/2023, 12:34:15 PM
+Compilation finished at 12/19/2023, 12:34:15 PM
+Compilation started at 12/19/2023, 12:45:02 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.c: In function 'output':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.c:34:9: warning: implicit declaration of function 'fact' [-Wimplicit-function-declaration]
+     if (fact(num))
+         ^~~~
+C:\Users\eshwa\AppData\Local\Temp\cc611DeQ.o: In function `output':
+c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/PSC exam/1.c:34: undefined reference to `fact'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 12:45:02 PM
+Compilation started at 12/19/2023, 12:45:52 PM
+Compilation finished at 12/19/2023, 12:45:52 PM
+Compilation started at 12/19/2023, 12:48:49 PM
+Compilation finished at 12/19/2023, 12:48:49 PM
+Compilation started at 12/19/2023, 12:58:23 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.c: In function 'find_fact':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.c:13:18: error: 'num' undeclared (first use in this function)
+  while(factorial<num)
+                  ^~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.c:13:18: note: each undeclared identifier is reported only once for each function it appears in
+Compilation finished at 12/19/2023, 12:58:23 PM
+Compilation started at 12/19/2023, 12:58:40 PM
+Compilation finished at 12/19/2023, 12:58:40 PM
+Compilation started at 12/19/2023, 1:11:28 PM
+Compilation finished at 12/19/2023, 1:11:29 PM
+Compilation started at 12/19/2023, 2:08:26 PM
+Compilation finished at 12/19/2023, 2:08:27 PM
+Compilation started at 12/19/2023, 2:21:47 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.c: In function 'output':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.c:26:11: error: expected expression before ')' token
+  if(fact==);
+           ^
+Compilation finished at 12/19/2023, 2:21:47 PM
+Compilation started at 12/19/2023, 2:22:01 PM
+C:\Users\eshwa\AppData\Local\Temp\cc4lu42G.o: In function `main':
+c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/PSC exam/1.c:30: undefined reference to `output'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 2:22:01 PM
+Compilation started at 12/19/2023, 2:22:20 PM
+C:\Users\eshwa\AppData\Local\Temp\cc6JpZJi.o: In function `main':
+c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/PSC exam/1.c:30: undefined reference to `output'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 2:22:20 PM
+Compilation started at 12/19/2023, 2:22:33 PM
+Compilation finished at 12/19/2023, 2:22:34 PM
+Compilation started at 12/19/2023, 2:24:06 PM
+Compilation finished at 12/19/2023, 2:24:06 PM
+Compilation started at 12/19/2023, 2:24:28 PM
+Compilation finished at 12/19/2023, 2:24:28 PM
+Compilation started at 12/19/2023, 2:27:41 PM
+Compilation finished at 12/19/2023, 2:27:42 PM
+Compilation started at 12/19/2023, 2:28:18 PM
+Compilation finished at 12/19/2023, 2:28:19 PM
+Compilation started at 12/19/2023, 2:28:56 PM
+Compilation finished at 12/19/2023, 2:28:56 PM
+Compilation started at 12/19/2023, 2:31:03 PM
+Compilation finished at 12/19/2023, 2:31:04 PM
+Compilation started at 12/19/2023, 2:31:20 PM
+Compilation finished at 12/19/2023, 2:31:20 PM
+Compilation started at 12/19/2023, 2:32:53 PM
+Compilation finished at 12/19/2023, 2:32:54 PM
+Compilation started at 12/19/2023, 2:33:23 PM
+Compilation finished at 12/19/2023, 2:33:24 PM
+Compilation started at 12/19/2023, 2:34:36 PM
+Compilation finished at 12/19/2023, 2:34:36 PM

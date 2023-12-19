@@ -8,22 +8,28 @@ int input()
 }
 int find_fact(int n)
 {
-    int j=n; 
-	for(int i=2;i<j;i++) //120 while(j%2==0)
-	{                                         
-		j=j/i; 
+	int i;
+    int j=2;
+	for(i=1;i!=n/2;i++)
+	{
+		j=j*i;
+        if(j==n)
+        {
+            return 1;
+        }
 	}
-	return j;
+    j++;
+    return 0;
 }
 void output(int n,int fact)
 {
     if(fact>0)
     {
-	    printf("the factorial of %d is %d\n",n,fact);
+        printf("it is a factorial number ");
     }
     else
     {
-        printf("it is not a factorial number");
+        printf("it is not a factorial number ");
     }
 }
 int main()
