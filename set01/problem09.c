@@ -11,13 +11,17 @@ float input()
 float mysqrt(float n)
 {
      float x;
-      x=n;
+      x=n*1.0/2;
     
     while(x*x!=n)
     {
+        if(x*x>n-0.001 && x*x<n+0.001)
+        {
+            return x;
+        }
         if(x*x>n)
         {
-            x=x/2;
+            x=(x+n/x)/2;
         }
         else
         {
@@ -29,7 +33,7 @@ float mysqrt(float n)
 
 void output(float x, float root)
 {
-    printf("sqrt of %f is %f\n",x,root);
+    printf("sqrt of %.2f is %.2f\n",x,root);
 }
 int main(void)
 {
