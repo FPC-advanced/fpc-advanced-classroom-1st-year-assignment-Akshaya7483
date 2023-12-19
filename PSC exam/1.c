@@ -8,9 +8,8 @@ int input()
 }
 int find_fact(int n)
 {
-	int i=1;
     int j=2;
-	for(i=2;i!=n/2;i++)
+	for(int i=1;i!=n/2;i++)
 	{
 		j=j*i;
         if(j==n)
