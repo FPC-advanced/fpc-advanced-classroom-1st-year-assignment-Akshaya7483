@@ -8,9 +8,10 @@ int number_of_players()
 }
 int name_players(int n,char str1)
 {
-    for(i=0;i<n;i++)
+    for(int i=0;i<n;i++)
     {
-        printf("enter the name of player ")
+        printf("enter the name of player %d",i);
+        scanf("%s",str1)
     }
 }
 int main()
