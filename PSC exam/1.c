@@ -17,7 +17,11 @@ int find_fact(int n)
 }
 void output(int n,int fact)
 {
-	printf("the factorial of %d is %d",n,fact);
+    if(fact>0)
+    {
+	    printf("the factorial of %d is %d",n,fact);
+    }
+    else
 }
 int main()
 {
