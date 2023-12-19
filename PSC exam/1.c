@@ -16,14 +16,17 @@ int is_factorial(int n) {
     }
 
     if (fact == n) {
-        return 1; // It is a factorial number
-    } else {
-        return 0; // It is not a factorial number
+        return 1;
+    } 
+    else 
+    {
+        return 0; 
     }
 }
 
 void output(int n, int fact) {
-    if (fact > 0) {
+    if (fact > 0) 
+    {
         printf("%d is a factorial number.\n", n);
     } else {
         printf("%d is not a factorial n
