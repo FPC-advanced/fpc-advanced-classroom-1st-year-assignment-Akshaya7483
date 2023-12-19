@@ -8,11 +8,13 @@ int input()
 }
 int find_fact(int n)
 {
-    int j=n; 
-	for(int i=2;i<j;i++) //120 while(j%2==0)
+    int j=n;
+    int i=2; 
+	while(j%2==0)
 	{                                         
 		j=j/i; 
 	}
+    i++;
 	return j;
 }
 void output(int n,int fact)
