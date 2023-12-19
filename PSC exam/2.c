@@ -57,6 +57,10 @@ int main()
 	int a[n],b[n];
 	input_n(n,a);
     find_n_fact(n,a,b);
+    for(int i=0;i<n;i++)
+    {
+        printf("%d\n",b[i]);
+    }
     output(n,b);
     return 0;
 }
