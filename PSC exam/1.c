@@ -24,7 +24,8 @@ int is_factorial(int n) {
     }
 }
 
-void output(int n, int fact) {
+void output(int n, int fact) 
+{
     if (fact > 0) 
     {
         printf("%d is a factorial number\n", n);
@@ -33,3 +34,13 @@ void output(int n, int fact) {
     {
         printf("%d is not a factorial number \n",n);
     }
+}
+int main()
+{
+    {
+	int n,fact;
+	n=input();
+	fact=find_fact(n);
+	output(n,fact);
+	return 0;
+}
