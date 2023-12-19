@@ -47,7 +47,7 @@ void output(int n,int b[])
 {
     for(int i=0;i<n;i++)
     {
-        printf("%d",b[i]);
+        printf("%d\n",b[i]);
     }
 }
 int main()
