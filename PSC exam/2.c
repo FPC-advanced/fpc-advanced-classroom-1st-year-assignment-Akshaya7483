@@ -16,7 +16,7 @@ int input_n(int n,int a[])
 	}
     return a;
 }
-int fact(int a[],int i)
+int fact(int a[])
 {
     int i,count=0,j=2;
 	for(i=1;i!=a[i]/2;i++)
@@ -38,7 +38,7 @@ void find_n_fact(int n,int a[],int b[])
     int i;
     for(i=0;i<n;i++)
     {
-        
+        b[i]=fact(a[i]);
         printf("%d",b[i]);
     }
 }
