@@ -10,12 +10,12 @@ int input()
 int find_fact(int n) 
 {
     int i = 1,j = 1;
-    while (fact<n) 
+    while (j<n) 
     {
         i++;
-        fact *= i;
+        j*=i;
     }
-    if (fact==n) 
+    if (j==n) 
     {
         return 1;
     } 
