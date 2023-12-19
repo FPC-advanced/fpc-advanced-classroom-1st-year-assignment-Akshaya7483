@@ -1,5 +1,9 @@
 #include<stdio.h>
-int 
+int number_of_players()
+{
+    int x;
+    printf("enter the number of players :")
+}
 int main()
 {
     int n;
