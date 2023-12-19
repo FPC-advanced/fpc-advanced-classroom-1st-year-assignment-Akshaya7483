@@ -8,7 +8,7 @@ int input()
 }
 int find_fact(int n)
 {
-	int i=1;j=1;
+	int i=1,j=1;
 	while(j<n)
 	{
 		j*=i;
