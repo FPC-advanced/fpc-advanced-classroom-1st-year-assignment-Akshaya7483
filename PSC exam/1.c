@@ -23,7 +23,6 @@ int main()
 {
 	int n,fact;
 	n=input();
-    printf("%d",n);
 	fact=find_fact(n);
 	output(n,fact);
     return 0;
