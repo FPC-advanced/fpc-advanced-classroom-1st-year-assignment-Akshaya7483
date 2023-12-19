@@ -233,3 +233,5 @@ C:\Users\eshwa\AppData\Local\Temp\ccUXYIYm.o: In function `main':
 c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/PSC exam/1.c:43: undefined reference to `find_fact'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 12/19/2023, 4:09:15 PM
+Compilation started at 12/19/2023, 4:09:35 PM
+Compilation finished at 12/19/2023, 4:09:35 PM

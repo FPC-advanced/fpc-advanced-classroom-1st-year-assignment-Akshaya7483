@@ -7,15 +7,15 @@ int input()
     return x;
 }
 
-int is_factorial(int n) 
+int find_fact(int n) 
 {
-    int i = 1, fact = 1;
-    while (fact < n) 
+    int i = 1,j = 1;
+    while (fact<n) 
     {
         i++;
         fact *= i;
     }
-    if (fact == n) 
+    if (fact==n) 
     {
         return 1;
     } 
