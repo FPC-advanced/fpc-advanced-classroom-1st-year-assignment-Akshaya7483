@@ -35,10 +35,10 @@ int fact(int a[])
 }
 void find_n_fact(int n,int a[],int b[])
 {
-    int i,q;
+    int i;
     for(i=0;i<n;i++)
     {
-        q=fact(a[i]);
+        b[i]=fact(a[i]);
         printf("%d",b[i]);
     }
 }
