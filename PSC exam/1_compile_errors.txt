@@ -93,3 +93,5 @@ Compilation started at 12/19/2023, 11:48:47 AM
 c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\1.exe: Permission denied
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 12/19/2023, 11:48:48 AM
+Compilation started at 12/19/2023, 11:49:52 AM
+Compilation finished at 12/19/2023, 11:49:53 AM
