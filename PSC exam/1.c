@@ -8,12 +8,12 @@ int input()
 }
 int find_fact(int n)
 {
-	int i;
+	int i,res;
     int j=2;
 	for(i=1;i!=n/2;i++)
 	{
-		j=j*i;
-        if(j==n)
+		res=j*i;
+        if(res==n)
         {
             return 1;
         }
