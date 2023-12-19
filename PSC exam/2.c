@@ -16,13 +16,13 @@ int input_n(int n,int a[])
 	}
     return a;
 }
-int fact(int *a[],int i)
+int fact(int a[],int i)
 {
     int i,count=0,j=2;
-	for(i=1;i!=*a[i]/2;i++)
+	for(i=1;i!=a[i]/2;i++)
 	{
 		j=j*i;
-        if(j==*a[i])
+        if(j==a[i])
         {
             count++;
         }
@@ -38,7 +38,7 @@ void find_n_fact(int n,int a[],int b[])
     int i;
     for(i=0;i<n;i++)
     {
-        b[i]=fact(n,&a[i]);
+        b[i]=fact(n,a[i]);
         printf("%d",b[i]);
     }
 }

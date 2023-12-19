@@ -252,3 +252,52 @@ c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
  int fact(int a[],int i)
      ^~~~
 Compilation finished at 12/19/2023, 3:04:40 PM
+Compilation started at 12/19/2023, 3:05:38 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'input_n':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:17:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+     return a;
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'fact':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:21:9: error: 'i' redeclared as different kind of symbol
+     int i,count=0,j=2;
+         ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:19:23: note: previous definition of 'i' was here
+ int fact(int *a[],int i)
+                       ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:33:17: warning: return makes integer from pointer without a cast [-Wint-conversion]
+         return a[i];
+                ~^~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'find_n_fact':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:41:19: warning: passing argument 1 of 'fact' makes pointer from integer without a cast [-Wint-conversion]
+         b[i]=fact(n,&a[i]);
+                   ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:19:5: note: expected 'int **' but argument is of type 'int'
+ int fact(int *a[],int i)
+     ^~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:41:21: warning: passing argument 2 of 'fact' makes integer from pointer without a cast [-Wint-conversion]
+         b[i]=fact(n,&a[i]);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:19:5: note: expected 'int' but argument is of type 'int *'
+ int fact(int *a[],int i)
+     ^~~~
+Compilation finished at 12/19/2023, 3:05:38 PM
+Compilation started at 12/19/2023, 3:05:55 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'input_n':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:17:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+     return a;
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'fact':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:21:9: error: 'i' redeclared as different kind of symbol
+     int i,count=0,j=2;
+         ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:19:22: note: previous definition of 'i' was here
+ int fact(int a[],int i)
+                      ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'find_n_fact':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:41:19: warning: passing argument 1 of 'fact' makes pointer from integer without a cast [-Wint-conversion]
+         b[i]=fact(n,a[i]);
+                   ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:19:5: note: expected 'int *' but argument is of type 'int'
+ int fact(int a[],int i)
+     ^~~~
+Compilation finished at 12/19/2023, 3:05:55 PM
