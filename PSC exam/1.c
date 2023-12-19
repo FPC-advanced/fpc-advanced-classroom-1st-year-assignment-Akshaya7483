@@ -23,7 +23,7 @@ void output(int n,int fact)
     }
     else
     {
-        printf("it is not a factorial number")
+        printf("it is not a factorial number");
     }
 }
 int main()
