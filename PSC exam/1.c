@@ -9,7 +9,7 @@ int input()
 int find_fact(int n)
 {
     int j=n; 
-	for(int i=2;i<j;i++) //120 while()
+	for(int i=2;i<j;i++) //120 while(j%2==0)
 	{                                         
 		j=j/i; 
 	}
