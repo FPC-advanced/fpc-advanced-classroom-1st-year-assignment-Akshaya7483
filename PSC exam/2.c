@@ -38,7 +38,7 @@ void find_n_fact(int n,int a[],int b[])
         count=fact(a[i]);
         if(count>0)
         {
-             return a[i];
+             b[i]=a[i];
         }
         
     }
