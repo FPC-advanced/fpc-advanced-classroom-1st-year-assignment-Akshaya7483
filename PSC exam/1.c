@@ -12,7 +12,7 @@ int find_fact(int n)
     int j=2;
 	for(i=1;i!=n/2;i++)
 	{
-		j*=j*i;
+		j=j*i;
         if(j==n)
         {
             return 1;
