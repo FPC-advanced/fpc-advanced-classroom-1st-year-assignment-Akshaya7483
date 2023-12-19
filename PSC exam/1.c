@@ -17,7 +17,9 @@ int find_fact(int n)
         {
             return 1;
         }
-    return 0;
+        else{
+            return 0;
+        }
 }
 void output(int n,int fact)
 {
