@@ -28,11 +28,11 @@ int fact(int a[])
         }
 	}
     j++;
-    
+    return count;
 }
 void find_n_fact(int n,int a[],int b[])
 {
-    int i;
+    int i,count=0;
     for(i=0;i<n;i++)
     {
         count=fact(a[i]);
@@ -40,7 +40,6 @@ void find_n_fact(int n,int a[],int b[])
         {
              b[i]=a[i];
         }
-        
     }
     return b;
 }
