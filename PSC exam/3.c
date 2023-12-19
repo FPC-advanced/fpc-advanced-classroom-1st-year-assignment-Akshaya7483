@@ -6,12 +6,17 @@ int number_of_players()
     scanf("%d",&x);
     return x;
 }
-int name_players(int n,char str1)
+int name_players(int n,char str1,char )
 {
     for(int i=0;i<n;i++)
     {
         printf("enter the name of player %d",i);
-        scanf("%s",str1)
+        scanf("%s",str1);
+    }
+    for(int i=0;i<n;i++)
+    {
+        printf("enter the name of player %d",i);
+        scanf("%s",str2);
     }
 }
 int main()
