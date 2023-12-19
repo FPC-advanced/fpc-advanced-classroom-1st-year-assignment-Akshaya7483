@@ -12,11 +12,11 @@ int find_fact(int n)
 	for(int i=1;i!=n/2;i++)
 	{
 		j=j*i;
-        if(j==n)
+	}
+    if(j==n)
         {
             return 1;
         }
-	}
     return 0;
 }
 void output(int n,int fact)
