@@ -19,9 +19,12 @@ void output(int n,int fact)
 {
     if(fact>0)
     {
-	    printf("the factorial of %d is %d",n,fact);
+	    printf("the factorial of %d is %d\n",n,fact);
     }
     else
+    {
+        printf("it is not a factorial number")
+    }
 }
 int main()
 {
