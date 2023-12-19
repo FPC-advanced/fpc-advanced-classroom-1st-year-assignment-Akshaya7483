@@ -416,3 +416,22 @@ c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
  void find_n_fact(int n,int a[],int b[])
       ^~~~~~~~~~~
 Compilation finished at 12/19/2023, 3:27:10 PM
+Compilation started at 12/19/2023, 3:29:01 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'input_n':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:17:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+     return a;
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c: In function 'find_n_fact':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:38:20: warning: passing argument 1 of 'fact' makes pointer from integer without a cast [-Wint-conversion]
+         count=fact(a[i]);
+                    ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:19:5: note: expected 'int *' but argument is of type 'int'
+ int fact(int a[])
+     ^~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:44:12: warning: 'return' with a value, in function returning void
+     return b;
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\2.c:33:6: note: declared here
+ void find_n_fact(int n,int a[],int b[])
+      ^~~~~~~~~~~
+Compilation finished at 12/19/2023, 3:29:01 PM
