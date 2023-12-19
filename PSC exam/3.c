@@ -10,7 +10,6 @@ int main()
 {
     int n;
     n=number_of_players();
-    char str1[n],str2[n]l
-    
-    name_players()
+    char str1[n],str2[n];
+    str1=name_players()
 }
