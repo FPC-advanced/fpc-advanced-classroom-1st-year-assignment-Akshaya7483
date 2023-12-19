@@ -39,6 +39,7 @@ void find_n_fact(int n,int a[],int b[])
     for(i=0;i<n;i++)
     {
         b[i]=fact(a[i]);
+        scanf("%d",b[i]);
         printf("%d",b[i]);
     }
 }
