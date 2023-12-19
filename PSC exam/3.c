@@ -9,5 +9,7 @@ int number_of_players()
 int main()
 {
     int n;
+    char str
     n=number_of_players();
+    name_players()
 }
