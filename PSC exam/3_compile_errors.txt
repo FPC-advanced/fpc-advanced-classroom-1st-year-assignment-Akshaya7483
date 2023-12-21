@@ -43,3 +43,13 @@ c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
  void name_players(int n,char *str1,char *str2)
       ^~~~~~~~~~~~
 Compilation finished at 12/19/2023, 12:22:22 PM
+Compilation started at 12/19/2023, 5:13:55 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'input_n':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:22:23: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+     Fritacole* team = malloc(n * sizeof(Fritacole));
+                       ^~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:22:23: warning: incompatible implicit declaration of built-in function 'malloc'
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:22:23: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+Compilation finished at 12/19/2023, 5:13:55 PM
+Compilation started at 12/19/2023, 5:36:13 PM
+Compilation finished at 12/19/2023, 5:36:14 PM
