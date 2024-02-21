@@ -25,7 +25,7 @@ int find_fact(int n)
 }
 void output(int n, int fact) 
 {
-    if (fact > 0) 
+    if (fact>0) 
     {
         printf("%d is a factorial number\n", n);
     } 
