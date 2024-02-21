@@ -9,7 +9,7 @@ int input()
 int find_fact(int n) 
 {
     int i = 1,j = 1;
-    while (j<n) 
+    while (j<n/2) 
     {
         j*=i;
          i++;
