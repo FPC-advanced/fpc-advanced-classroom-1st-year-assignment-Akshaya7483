@@ -27,7 +27,7 @@ void output(int n, int fact)
 {
     if (fact>0) 
     {
-        printf("%d is a factorial numberof %d\n", n);
+        printf("%d is a factorial numberof %d\n", n,fact);
     } 
     else 
     {
