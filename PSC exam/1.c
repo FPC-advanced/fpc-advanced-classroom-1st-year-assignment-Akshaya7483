@@ -16,7 +16,7 @@ int find_fact(int n)
     }
     if (j==n) 
     {
-        return 1;
+        return i;
     } 
     else 
     {
@@ -27,7 +27,7 @@ void output(int n, int fact)
 {
     if (fact>0) 
     {
-        printf("%d is a factorial number\n", n);
+        printf("%d is a factorial numberof %d\n", n);
     } 
     else 
     {
