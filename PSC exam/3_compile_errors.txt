@@ -1,55 +1,227 @@
-Compilation started at 12/19/2023, 12:21:01 PM
+Compilation started at 2/16/2024, 9:20:10 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'input':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:69:17: error: '(game *)&a' is a pointer; did you mean to use '->'?
+     scanf("%s",a.game);
+                 ^
+                 ->
+Compilation finished at 2/16/2024, 9:20:10 PM
+Compilation started at 2/16/2024, 9:20:49 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'input':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:69:17: error: '(game *)&a' is a pointer; did you mean to use '->'?
+     scanf("%s",a.name);
+                 ^
+                 ->
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:70:12: error: incompatible types when returning type 'game * {aka struct fritacole *}' but 'game {aka struct fritacole}' was expected
+     return a;
+            ^
+Compilation finished at 2/16/2024, 9:20:49 PM
+Compilation started at 2/16/2024, 9:22:44 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'input':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:69:17: error: '(game *)&a' is a pointer; did you mean to use '->'?
+     scanf("%s",a.name);
+                 ^
+                 ->
+Compilation finished at 2/16/2024, 9:22:44 PM
+Compilation started at 2/16/2024, 9:23:28 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'input':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:69:17: error: '(game *)&a' is a pointer; did you mean to use '->'?
+     scanf("%s",a.name);
+                 ^
+                 ->
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:70:41: error: '(game *)&a' is a pointer; did you mean to use '->'?
+      printf("enter your team name %s:",a.name);
+                                         ^
+                                         ->
+Compilation finished at 2/16/2024, 9:23:28 PM
+Compilation started at 2/16/2024, 9:23:38 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'input':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:69:17: error: '(game *)&a' is a pointer; did you mean to use '->'?
+     scanf("%s",a.name);
+                 ^
+                 ->
+Compilation finished at 2/16/2024, 9:23:39 PM
+Compilation started at 2/16/2024, 9:23:47 PM
+Compilation finished at 2/16/2024, 9:23:47 PM
+Compilation started at 2/16/2024, 9:24:36 PM
+Compilation finished at 2/16/2024, 9:24:36 PM
+Compilation started at 2/16/2024, 9:24:52 PM
+Compilation finished at 2/16/2024, 9:24:52 PM
+Compilation started at 2/16/2024, 9:25:08 PM
+Compilation finished at 2/16/2024, 9:25:08 PM
+Compilation started at 2/16/2024, 9:25:30 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'input':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:69:18: error: '(game *)&x' is a pointer; did you mean to use '->'?
+     scanf("%s",&x.name);
+                  ^
+                  ->
+Compilation finished at 2/16/2024, 9:25:30 PM
+Compilation started at 2/16/2024, 9:27:37 PM
+Compilation finished at 2/16/2024, 9:27:38 PM
+Compilation started at 2/16/2024, 9:29:35 PM
 c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'main':
-c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:28:20: warning: passing argument 2 of 'name_players' makes integer from pointer without a cast [-Wint-conversion]
-     name_players(n,str1,str2);
-                    ^~~~
-c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:9:5: note: expected 'char' but argument is of type 'char *'
- int name_players(int n,char str1,char str2)
-     ^~~~~~~~~~~~
-c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:28:25: warning: passing argument 3 of 'name_players' makes integer from pointer without a cast [-Wint-conversion]
-     name_players(n,str1,str2);
-                         ^~~~
-c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:9:5: note: expected 'char' but argument is of type 'char *'
- int name_players(int n,char str1,char str2)
-     ^~~~~~~~~~~~
-Compilation finished at 12/19/2023, 12:21:02 PM
-Compilation started at 12/19/2023, 12:21:36 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:75:11: error: incompatible type for argument 1 of 'input'
+     input(a,b);
+           ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:65:6: note: expected 'game * {aka struct fritacole *}' but argument is of type 'game {aka struct fritacole}'
+ game input(game a[],game b[])
+      ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:75:13: error: incompatible type for argument 2 of 'input'
+     input(a,b);
+             ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:65:6: note: expected 'game * {aka struct fritacole *}' but argument is of type 'game {aka struct fritacole}'
+ game input(game a[],game b[])
+      ^~~~~
+Compilation finished at 2/16/2024, 9:29:35 PM
+Compilation started at 2/16/2024, 9:30:07 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:65:1: error: unknown type name 'game'
+ game input(game a[],game b[])
+ ^~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:65:1: note: use 'struct' keyword to refer to the type
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:65:12: error: unknown type name 'game'
+ game input(game a[],game b[])
+            ^~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:65:21: error: unknown type name 'game'
+ game input(game a[],game b[])
+                     ^~~~
 c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'main':
-c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:28:20: warning: passing argument 2 of 'name_players' from incompatible pointer type [-Wincompatible-pointer-types]
-     name_players(n,&str1,&str2);
-                    ^
-c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:9:5: note: expected 'char *' but argument is of type 'char (*)[(sizetype)(n)]'
- int name_players(int n,char *str1,char *str2)
-     ^~~~~~~~~~~~
-c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:28:26: warning: passing argument 3 of 'name_players' from incompatible pointer type [-Wincompatible-pointer-types]
-     name_players(n,&str1,&str2);
-                          ^
-c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:9:5: note: expected 'char *' but argument is of type 'char (*)[(sizetype)(n)]'
- int name_players(int n,char *str1,char *str2)
-     ^~~~~~~~~~~~
-Compilation finished at 12/19/2023, 12:21:37 PM
-Compilation started at 12/19/2023, 12:22:22 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:74:5: error: unknown type name 'game'
+     game a,b;
+     ^~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:74:5: note: use 'struct' keyword to refer to the type
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:75:5: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+     input(a,b);
+     ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:76:22: error: request for member 'name' in something not a structure or union
+     printf("%s %s ",a.name,b.name);
+                      ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:76:29: error: request for member 'name' in something not a structure or union
+     printf("%s %s ",a.name,b.name);
+                             ^
+Compilation finished at 2/16/2024, 9:30:07 PM
+Compilation started at 2/16/2024, 9:30:22 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:65:1: error: unknown type name 'game'
+ game input(game a[],game b[])
+ ^~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:65:1: note: use 'struct' keyword to refer to the type
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:65:12: error: unknown type name 'game'
+ game input(game a[],game b[])
+            ^~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:65:21: error: unknown type name 'game'
+ game input(game a[],game b[])
+                     ^~~~
 c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'main':
-c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:28:20: warning: passing argument 2 of 'name_players' from incompatible pointer type [-Wincompatible-pointer-types]
-     name_players(n,&str1,&str2);
-                    ^
-c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:9:6: note: expected 'char *' but argument is of type 'char (*)[(sizetype)(n)]'
- void name_players(int n,char *str1,char *str2)
-      ^~~~~~~~~~~~
-c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:28:26: warning: passing argument 3 of 'name_players' from incompatible pointer type [-Wincompatible-pointer-types]
-     name_players(n,&str1,&str2);
-                          ^
-c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:9:6: note: expected 'char *' but argument is of type 'char (*)[(sizetype)(n)]'
- void name_players(int n,char *str1,char *str2)
-      ^~~~~~~~~~~~
-Compilation finished at 12/19/2023, 12:22:22 PM
-Compilation started at 12/19/2023, 5:13:55 PM
-c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'input_n':
-c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:22:23: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
-     Fritacole* team = malloc(n * sizeof(Fritacole));
-                       ^~~~~~
-c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:22:23: warning: incompatible implicit declaration of built-in function 'malloc'
-c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:22:23: note: include '<stdlib.h>' or provide a declaration of 'malloc'
-Compilation finished at 12/19/2023, 5:13:55 PM
-Compilation started at 12/19/2023, 5:36:13 PM
-Compilation finished at 12/19/2023, 5:36:14 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:74:5: error: unknown type name 'game'
+     game a,b;
+     ^~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:74:5: note: use 'struct' keyword to refer to the type
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:75:5: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+     input(a,b);
+     ^~~~~
+Compilation finished at 2/16/2024, 9:30:22 PM
+Compilation started at 2/16/2024, 9:33:59 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:74:10: error: array size missing in 'a'
+     game a[],b[];
+          ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:74:14: error: array size missing in 'b'
+     game a[],b[];
+              ^
+Compilation finished at 2/16/2024, 9:33:59 PM
+Compilation started at 2/16/2024, 9:36:03 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:75:11: error: incompatible type for argument 1 of 'input'
+     input(a,b);
+           ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:65:6: note: expected 'game * {aka struct Fritacole *}' but argument is of type 'game {aka struct Fritacole}'
+ game input(game *a,game *b)
+      ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:75:13: error: incompatible type for argument 2 of 'input'
+     input(a,b);
+             ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:65:6: note: expected 'game * {aka struct Fritacole *}' but argument is of type 'game {aka struct Fritacole}'
+ game input(game *a,game *b)
+      ^~~~~
+Compilation finished at 2/16/2024, 9:36:03 PM
+Compilation started at 2/16/2024, 9:36:48 PM
+Compilation finished at 2/16/2024, 9:36:49 PM
+Compilation started at 2/16/2024, 9:37:34 PM
+Compilation finished at 2/16/2024, 9:37:34 PM
+Compilation started at 2/16/2024, 9:49:51 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'input_player_details':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:72:17: error: 'game {aka struct Fritacole}' has no member named 'intergrity'; did you mean 'integrity'?
+     scanf("%s",x.intergrity);
+                 ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'input':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:85:15: error: 'n' undeclared (first use in this function)
+     for(i=1;i<n;i++)
+               ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:85:15: note: each undeclared identifier is reported only once for each function it appears in
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:88:5: error: expected ';' before '}' token
+     }
+     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:103:5: error: 'n' undeclared (first use in this function)
+     n=get_n();
+     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:105:9: error: 'i' undeclared (first use in this function)
+     for(i=1;i<n;i++)
+         ^
+Compilation finished at 2/16/2024, 9:49:51 PM
+Compilation started at 2/16/2024, 9:50:00 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'input_player_details':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:72:17: error: 'game {aka struct Fritacole}' has no member named 'intergrity'; did you mean 'integrity'?
+     scanf("%s",x.intergrity);
+                 ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'input':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:85:15: error: 'n' undeclared (first use in this function)
+     for(i=1;i<n;i++)
+               ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:85:15: note: each undeclared identifier is reported only once for each function it appears in
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:88:5: error: expected ';' before '}' token
+     }
+     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:103:5: error: 'n' undeclared (first use in this function)
+     n=get_n();
+     ^
+Compilation finished at 2/16/2024, 9:50:01 PM
+Compilation started at 2/16/2024, 9:50:10 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'input_player_details':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:72:17: error: 'game {aka struct Fritacole}' has no member named 'intergrity'; did you mean 'integrity'?
+     scanf("%s",x.intergrity);
+                 ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'input':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:85:15: error: 'n' undeclared (first use in this function)
+     for(i=1;i<n;i++)
+               ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:85:15: note: each undeclared identifier is reported only once for each function it appears in
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:88:5: error: expected ';' before '}' token
+     }
+     ^
+Compilation finished at 2/16/2024, 9:50:10 PM
+Compilation started at 2/16/2024, 9:50:47 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'input_player_details':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:72:17: error: 'game {aka struct Fritacole}' has no member named 'intergrity'; did you mean 'integrity'?
+     scanf("%s",x.intergrity);
+                 ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'input':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:88:5: error: expected ';' before '}' token
+     }
+     ^
+Compilation finished at 2/16/2024, 9:50:47 PM
+Compilation started at 2/16/2024, 9:51:12 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c: In function 'input':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\3.c:88:5: error: expected ';' before '}' token
+     }
+     ^
+Compilation finished at 2/16/2024, 9:51:12 PM
+Compilation started at 2/16/2024, 9:51:27 PM
+Compilation finished at 2/16/2024, 9:51:27 PM
+Compilation started at 2/16/2024, 9:59:24 PM
+Compilation finished at 2/16/2024, 9:59:24 PM
+Compilation started at 2/16/2024, 10:03:12 PM
+Compilation finished at 2/16/2024, 10:03:12 PM
+Compilation started at 2/16/2024, 10:04:16 PM
+Compilation finished at 2/16/2024, 10:04:16 PM
+Compilation started at 2/16/2024, 10:05:56 PM
+Compilation finished at 2/16/2024, 10:05:56 PM

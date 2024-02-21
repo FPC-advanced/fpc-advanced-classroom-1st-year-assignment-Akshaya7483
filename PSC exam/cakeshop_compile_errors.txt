@@ -1,0 +1,13 @@
+Compilation started at 2/21/2024, 9:59:19 AM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c: In function 'input_product':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:47:17: error: incompatible types when assigning to type 'products * {aka struct Cake_products *}' from type 'products {aka struct Cake_products}'
+         prdct[i]=input_product_attributes(i);
+                 ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:56:19: warning: passing argument 1 of 'input_product' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_product(&prdct,n);
+                   ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:43:10: note: expected 'products ** {aka struct Cake_products **}' but argument is of type 'products (*)[(sizetype)(n)]'
+ products input_product( products *prdct[], int n)
+          ^~~~~~~~~~~~~
+Compilation finished at 2/21/2024, 9:59:20 AM
