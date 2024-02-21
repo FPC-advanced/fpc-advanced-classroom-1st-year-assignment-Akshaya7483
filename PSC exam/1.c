@@ -6,7 +6,6 @@ int input()
     scanf("%d", &x);
     return x;
 }
-
 int find_fact(int n) 
 {
     int i = 1,j = 1;
@@ -24,7 +23,6 @@ int find_fact(int n)
         return 0; 
     }
 }
-
 void output(int n, int fact) 
 {
     if (fact > 0) 
