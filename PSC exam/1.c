@@ -11,9 +11,9 @@ int find_fact(int n)
     int i = 1,j = 1;
     while (j<n/2) 
     {
-        j*=i;
-         i++;
+        j*=i; 
     }
+     i++;
     if (j==n) 
     {
         return i;
