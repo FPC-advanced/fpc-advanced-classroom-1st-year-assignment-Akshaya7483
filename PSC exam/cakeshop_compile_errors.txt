@@ -11,3 +11,96 @@ c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
  products input_product( products *prdct[], int n)
           ^~~~~~~~~~~~~
 Compilation finished at 2/21/2024, 9:59:20 AM
+Compilation started at 2/21/2024, 8:44:35 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:55:19: warning: passing argument 1 of 'input_product' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_product(&prdct,n);
+                   ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:42:10: note: expected 'products * {aka struct Cake_products *}' but argument is of type 'products (*)[(sizetype)(n)]'
+ products input_product( products prdct[], int n)
+          ^~~~~~~~~~~~~
+Compilation finished at 2/21/2024, 8:44:35 PM
+Compilation started at 2/21/2024, 8:45:41 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:56:19: warning: passing argument 1 of 'input_product' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_product(&prdct,n);
+                   ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:43:10: note: expected 'products * {aka struct Cake_products *}' but argument is of type 'products (*)[(sizetype)(n)]'
+ products input_product( products prdct[], int n)
+          ^~~~~~~~~~~~~
+Compilation finished at 2/21/2024, 8:45:41 PM
+Compilation started at 2/21/2024, 8:48:34 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:56:19: warning: passing argument 1 of 'input_product' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_product(&prdct,n);
+                   ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:43:10: note: expected 'products * {aka struct Cake_products *}' but argument is of type 'products (*)[(sizetype)(n)]'
+ products input_product( products prdct[], int n)
+          ^~~~~~~~~~~~~
+Compilation finished at 2/21/2024, 8:48:34 PM
+Compilation started at 2/21/2024, 9:15:57 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:62:19: warning: passing argument 1 of 'input_product' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_product(&prdct,n);
+                   ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:46:10: note: expected 'products * {aka struct Cake_products *}' but argument is of type 'products (*)[(sizetype)(n)]'
+ products input_product( products prdct[], int n)
+          ^~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:68:5: warning: implicit declaration of function 'profit' [-Wimplicit-function-declaration]
+     profit(customer,n,prdct);
+     ^~~~~~
+C:\Users\eshwa\AppData\Local\Temp\ccKPy3Ak.o: In function `main':
+c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/PSC exam/cakeshop.c:68: undefined reference to `profit'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 2/21/2024, 9:15:57 PM
+Compilation started at 2/21/2024, 9:16:11 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:62:19: warning: passing argument 1 of 'input_product' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_product(&prdct,n);
+                   ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:46:10: note: expected 'products * {aka struct Cake_products *}' but argument is of type 'products (*)[(sizetype)(n)]'
+ products input_product( products prdct[], int n)
+          ^~~~~~~~~~~~~
+Compilation finished at 2/21/2024, 9:16:12 PM
+Compilation started at 2/21/2024, 9:42:47 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:75:19: warning: passing argument 1 of 'input_product' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_product(&prdct,n);
+                   ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:46:10: note: expected 'products * {aka struct Cake_products *}' but argument is of type 'products (*)[(sizetype)(n)]'
+ products input_product( products prdct[], int n)
+          ^~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:78:21: warning: passing argument 2 of 'profit' makes pointer from integer without a cast [-Wint-conversion]
+     profit(customer,n,prdct);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:59:10: note: expected 'products * {aka struct Cake_products *}' but argument is of type 'int'
+ products profit (int customer,products prdct[],int n)
+          ^~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:78:23: warning: passing argument 3 of 'profit' makes integer from pointer without a cast [-Wint-conversion]
+     profit(customer,n,prdct);
+                       ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:59:10: note: expected 'int' but argument is of type 'products * {aka struct Cake_products *}'
+ products profit (int customer,products prdct[],int n)
+          ^~~~~~
+Compilation finished at 2/21/2024, 9:42:48 PM
+Compilation started at 2/21/2024, 9:45:59 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:76:19: warning: passing argument 1 of 'input_product' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_product(&prdct,n);
+                   ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:46:10: note: expected 'products * {aka struct Cake_products *}' but argument is of type 'products (*)[(sizetype)(n)]'
+ products input_product( products prdct[], int n)
+          ^~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:79:21: warning: passing argument 2 of 'profit' makes pointer from integer without a cast [-Wint-conversion]
+     profit(customer,n,&prdct);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:59:10: note: expected 'products * {aka struct Cake_products *}' but argument is of type 'int'
+ products profit (int customer,products prdct[],int n)
+          ^~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:79:23: warning: passing argument 3 of 'profit' makes integer from pointer without a cast [-Wint-conversion]
+     profit(customer,n,&prdct);
+                       ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\cakeshop.c:59:10: note: expected 'int' but argument is of type 'products (*)[(sizetype)(n)]'
+ products profit (int customer,products prdct[],int n)
+          ^~~~~~
+Compilation finished at 2/21/2024, 9:45:59 PM
