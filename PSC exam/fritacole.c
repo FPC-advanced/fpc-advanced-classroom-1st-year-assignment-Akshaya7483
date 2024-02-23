@@ -93,15 +93,15 @@ void input_player_details(team *a,int n)
         scanf("%f",&a->y.height);
         printf("enter the fritacole integrity \nrate the level of integrity out of 10\n");
         scanf("%f",&a->y.integrity);
-        printf("enter the fritacole interest\nYES='Y'\n NO ='N'");
+        printf("enter the fritacole interest\nYES='Y'\nNO ='N'\n");
         scanf("%s",a->y.intrest);
-        printf("enter the fritacole ability\nCan do ='2'\nCan give a try='1'\nNone of this='0'");
+        printf("enter the fritacole ability\nCan do ='2'\nCan give a try='1'\nNone of this='0'\n");
         scanf("%s",a->y.ability);
         printf("enter the fritacole discipline\nrate the level of discipline out of 10\n");
         scanf("%f",&a->y.discipline);
-        printf("enter the points played by %s",a->y.player_name);
+        printf("enter the points played by %s\n",a->y.player_name);
         scanf("%d",a->y.point);
-        printf("enter the fouls played by %s",a->y.player_name);
+        printf("enter the fouls played by %s\n:,a->y.player_name);
         scanf("%d",a->y.fouls);
     }
     
