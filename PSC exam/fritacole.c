@@ -78,7 +78,7 @@ typedef struct Game
 int get_number_of_players()
 {
     int n;
-    printf("enter the number players in each team ");
+    printf("enter the number players in each team :\n");
     scanf("%d",&n);
     return n;
 }
@@ -101,7 +101,7 @@ void input_player_details(team *a,int n)
         scanf("%f",&a->y.discipline);
         printf("enter the points played by %s\n:",a->y.player_name);
         scanf("%d",a->y.point);
-        printf("enter the fouls played by %s\n:,a->y.player_name);
+        printf("enter the fouls played by %s\n:",a->y.player_name);
         scanf("%d",a->y.fouls);
     }
     
