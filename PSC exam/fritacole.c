@@ -73,7 +73,7 @@ typedef struct Team
 typedef struct Game
 {
    team x;
-   game_name[20];
+   char game_name[20];
 }game;
 int get_number_of_players()
 {
