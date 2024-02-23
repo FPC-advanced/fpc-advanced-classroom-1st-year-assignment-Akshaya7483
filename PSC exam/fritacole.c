@@ -59,8 +59,8 @@
 
 typedef struct Fritacole
 {
-    char player_name[20],intrest[10],ability[10],discipline[10];
-    float height,integrity;
+    char player_name[20],intrest[10],ability[10];
+    float height,integrity,discipline;
    int score,fouls;
 }fritacole;
 
