@@ -124,3 +124,12 @@ C:\Users\eshwa\AppData\Local\Temp\ccgYcd5o.o: In function `main':
 c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/PSC exam/fritacole.c:127: undefined reference to `team_name'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 2/23/2024, 4:09:22 PM
+Compilation started at 2/23/2024, 4:23:12 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:127:5: warning: implicit declaration of function 'team_name' [-Wimplicit-function-declaration]
+     team_name(&a,n);
+     ^~~~~~~~~
+C:\Users\eshwa\AppData\Local\Temp\ccW2lfJg.o: In function `main':
+c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/PSC exam/fritacole.c:127: undefined reference to `team_name'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 2/23/2024, 4:23:13 PM

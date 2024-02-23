@@ -120,7 +120,7 @@ void input(game *name)
 int main()
 {
     int n;
-    game name[20];
+    game name;
     n=get_number_of_players();
     input(&name);
     game a[n];
