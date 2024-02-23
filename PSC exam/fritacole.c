@@ -115,7 +115,7 @@ void input_team_name(game *a,int n)
 void input(game *a)
 {
     printf("enter the game name :\n");
-    scanf("%s",a->game_name);
+    scanf("%s",a->x);
 }
 int main()
 {
