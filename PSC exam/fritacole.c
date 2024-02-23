@@ -61,7 +61,7 @@ typedef struct Fritacole
 {
     char player_name[20],intrest[10],ability[10];
     float height,integrity,discipline;
-   int score,fouls;
+   int point,fouls;
 }fritacole;
 
 typedef struct Team
@@ -101,6 +101,8 @@ void input_player_details(team *a,int n)
         scanf("%f",&a->y.discipline);
         printf("enter the points played by %s",a->y.player_name);
         scanf("%d",a->y.point)
+        printf("enter the fouls played by %s",a->y.player_name);
+        scanf("%d",a->y.fouls)
     }
     
 }
@@ -127,6 +129,5 @@ int main()
     input(&name);
     team a[m];
     input_team_name(&a,m,n);
-    s
    return 0;
 }
