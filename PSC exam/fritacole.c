@@ -98,7 +98,7 @@ void input_player_details(team *a,int n)
         printf("enter the fritacole ability\nCan do ='2'\n Can give a try='1'\nNone of this='0'");
         scanf("%s",a->y.ability);
         printf("enter the fritacole discipline\nrate the level of discipline out of 10\n");
-        scanf("%s",a->y.discipline);
+        scanf("%f",a->y.discipline);
     }
     
 }
