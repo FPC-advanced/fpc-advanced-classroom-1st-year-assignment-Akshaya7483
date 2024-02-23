@@ -1,0 +1,26 @@
+Compilation started at 2/23/2024, 3:54:55 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:76:4: error: expected specifier-qualifier-list before 'game_name'
+    game_name[20];
+    ^~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'input_team_name':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:112:29: warning: passing argument 1 of 'input_player_details' from incompatible pointer type [-Wincompatible-pointer-types]
+        input_player_details(&a[i].x.team_name,n);
+                             ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:85:6: note: expected 'team * {aka struct Team *}' but argument is of type 'char (*)[20]'
+ void input_player_details(team *a,int n)
+      ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'input':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:118:17: error: 'game {aka struct Game}' has no member named 'game_name'
+     scanf("%s",a->game_name);
+                 ^~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:125:11: warning: passing argument 1 of 'input' from incompatible pointer type [-Wincompatible-pointer-types]
+     input(&game_name);
+           ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:115:6: note: expected 'game * {aka struct Game *}' but argument is of type 'game (*)[20] {aka struct Game (*)[20]}'
+ void input(game *a)
+      ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:127:5: warning: implicit declaration of function 'team_name' [-Wimplicit-function-declaration]
+     team_name(&a,n);
+     ^~~~~~~~~
+Compilation finished at 2/23/2024, 3:54:55 PM
