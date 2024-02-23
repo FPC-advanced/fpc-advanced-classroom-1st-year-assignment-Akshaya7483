@@ -120,9 +120,9 @@ void input(game *a)
 int main()
 {
     int n;
-    game game_name[20];
+    game name[20];
     n=get_number_of_players();
-    input(&game_name);
+    input(&name);
     game a[n];
     team_name(&a,n);
    return 0;
