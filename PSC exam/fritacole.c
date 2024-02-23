@@ -87,43 +87,44 @@ void input_player_details(team *a,int n)
     int i;
     for(i=0;i<n;i++)
     {
-        printf("enter the fritacole name of  \n: ");
+        printf("enter the fritacole name : \n ");
         scanf("%s",a->y.player_name);
         printf("enter the fritacole height\n");
-        scanf("%f",a->y.height);
-        printf("enter the fritacole integrity \n rate the level of integrity out of 10 \n");
-        scanf("%f",a->y.integrity);
-        printf("enter the fritacole interest\nYES='Y' \n NO ='N'");
+        scanf("%f",&a->y.height);
+        printf("enter the fritacole integrity \nrate the level of integrity out of 10\n");
+        scanf("%f",&a->y.integrity);
+        printf("enter the fritacole interest\nYES='Y'\n NO ='N'");
         scanf("%s",a->y.intrest);
-        printf("enter the fritacole ability\nCan do ='2'\n Can give a try='1'\nNone of this='0'");
+        printf("enter the fritacole ability\nCan do ='2'\nCan give a try='1'\nNone of this='0'");
         scanf("%s",a->y.ability);
         printf("enter the fritacole discipline\nrate the level of discipline out of 10\n");
-        scanf("%f",a->y.discipline);
+        scanf("%f",&a->y.discipline);
     }
     
 }
-void input_team_name(game *a,int n)
+void input_team_name(team *a,int m,int n)
 {
     int i;
-    for(i=0;i<2;i++)
+    for(i=0;i<m;i++)
     {
         printf("enter the team name :");
-        scanf("%s",a[i].x.team_name);
-       input_player_details(&a[i].x,n);
+        scanf("%s",a[i].team_name);
+       input_player_details(&a[i],n);
     }
 }
 void input(game *name)
 {
     printf("enter the game name :\n");
-    scanf("%s",name->x);
+    scanf("%s",name->game_name);
 }
 int main()
 {
-    int n;
+    int n,m=2;
     game name;
     n=get_number_of_players();
     input(&name);
-    game a[n];
-    team_name(&a,n);
+    team a[m];
+    input_team_name(&a,m,n);
+    s
    return 0;
 }

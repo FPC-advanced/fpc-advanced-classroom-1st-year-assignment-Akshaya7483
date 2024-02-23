@@ -133,3 +133,229 @@ C:\Users\eshwa\AppData\Local\Temp\ccW2lfJg.o: In function `main':
 c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/PSC exam/fritacole.c:127: undefined reference to `team_name'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 2/23/2024, 4:23:13 PM
+Compilation started at 2/23/2024, 4:25:58 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:127:5: warning: implicit declaration of function 'team_name' [-Wimplicit-function-declaration]
+     team_name(&a,n);
+     ^~~~~~~~~
+C:\Users\eshwa\AppData\Local\Temp\ccYtcOVM.o: In function `main':
+c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/PSC exam/fritacole.c:127: undefined reference to `team_name'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 2/23/2024, 4:25:58 PM
+Compilation started at 2/23/2024, 4:29:14 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:127:5: warning: implicit declaration of function 'team_name' [-Wimplicit-function-declaration]
+     team_name(&a,m,n);
+     ^~~~~~~~~
+C:\Users\eshwa\AppData\Local\Temp\cc2e0EMt.o: In function `main':
+c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/PSC exam/fritacole.c:127: undefined reference to `team_name'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 2/23/2024, 4:29:15 PM
+Compilation started at 2/23/2024, 4:29:52 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:127:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:105:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/23/2024, 4:29:53 PM
+Compilation started at 2/23/2024, 4:30:41 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:127:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:105:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:128:5: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+     print("fdjk")
+     ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:129:4: error: expected ';' before 'return'
+    return 0;
+    ^~~~~~
+Compilation finished at 2/23/2024, 4:30:41 PM
+Compilation started at 2/23/2024, 4:30:45 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:127:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:105:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:128:5: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+     print("fdjk")
+     ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:129:4: error: expected ';' before 'return'
+    return 0;;
+    ^~~~~~
+Compilation finished at 2/23/2024, 4:30:45 PM
+Compilation started at 2/23/2024, 4:30:48 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:127:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:105:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:128:5: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+     print("fdjk")
+     ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:129:4: error: expected ';' before 'return'
+    return 0;
+    ^~~~~~
+Compilation finished at 2/23/2024, 4:30:48 PM
+Compilation started at 2/23/2024, 4:30:53 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:127:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:105:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:128:5: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+     print("fdjk");
+     ^~~~~
+C:\Users\eshwa\AppData\Local\Temp\cc0N3mac.o: In function `main':
+c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/PSC exam/fritacole.c:128: undefined reference to `print'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 2/23/2024, 4:30:54 PM
+Compilation started at 2/23/2024, 4:31:06 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:127:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:105:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/23/2024, 4:31:06 PM
+Compilation started at 2/23/2024, 4:31:31 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:128:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:105:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/23/2024, 4:31:32 PM
+Compilation started at 2/23/2024, 4:31:51 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:128:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:105:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/23/2024, 4:31:52 PM
+Compilation started at 2/23/2024, 4:32:13 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:128:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:105:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/23/2024, 4:32:13 PM
+Compilation started at 2/23/2024, 4:32:29 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:129:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:105:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/23/2024, 4:32:30 PM
+Compilation started at 2/23/2024, 4:32:48 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:129:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:105:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/23/2024, 4:32:48 PM
+Compilation started at 2/23/2024, 4:33:07 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:129:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:105:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/23/2024, 4:33:07 PM
+Compilation started at 2/23/2024, 4:33:49 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:128:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:105:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/23/2024, 4:33:49 PM
+Compilation started at 2/23/2024, 4:35:56 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'input_player_details':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:96:20: error: request for member 'a' in something not a structure or union
+         printf("%f".a->y.height);
+                    ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:129:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:106:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/23/2024, 4:35:57 PM
+Compilation started at 2/23/2024, 4:36:18 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:129:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:106:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/23/2024, 4:36:18 PM
+Compilation started at 2/23/2024, 4:36:55 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:129:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:106:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/23/2024, 4:36:56 PM
+Compilation started at 2/23/2024, 4:41:45 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:128:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:105:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/23/2024, 4:41:46 PM
+Compilation started at 2/23/2024, 4:43:03 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:128:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:105:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/23/2024, 4:43:03 PM
+Compilation started at 2/23/2024, 4:43:56 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:128:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:105:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/23/2024, 4:43:56 PM
+Compilation started at 2/23/2024, 4:45:14 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:128:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:105:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/23/2024, 4:45:15 PM
