@@ -391,3 +391,12 @@ c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
  void input_team_name(team *a,int m,int n)
       ^~~~~~~~~~~~~~~
 Compilation finished at 2/23/2024, 8:57:17 PM
+Compilation started at 2/23/2024, 8:58:13 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:131:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:109:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/23/2024, 8:58:14 PM

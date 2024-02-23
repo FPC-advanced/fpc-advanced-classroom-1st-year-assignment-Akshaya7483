@@ -100,9 +100,9 @@ void input_player_details(team *a,int n)
         printf("enter the fritacole discipline\nrate the level of discipline out of 10\n");
         scanf("%f",&a->y.discipline);
         printf("enter the points played by %s",a->y.player_name);
-        scanf("%d",a->y.point)
+        scanf("%d",a->y.point);
         printf("enter the fouls played by %s",a->y.player_name);
-        scanf("%d",a->y.fouls)
+        scanf("%d",a->y.fouls);
     }
     
 }
