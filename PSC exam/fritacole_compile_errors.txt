@@ -109,3 +109,18 @@ C:\Users\eshwa\AppData\Local\Temp\ccYE55XR.o: In function `main':
 c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/PSC exam/fritacole.c:127: undefined reference to `team_name'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 2/23/2024, 4:08:01 PM
+Compilation started at 2/23/2024, 4:09:21 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:125:11: warning: passing argument 1 of 'input' from incompatible pointer type [-Wincompatible-pointer-types]
+     input(&name);
+           ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:115:6: note: expected 'game * {aka struct Game *}' but argument is of type 'game (*)[20] {aka struct Game (*)[20]}'
+ void input(game *name)
+      ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:127:5: warning: implicit declaration of function 'team_name' [-Wimplicit-function-declaration]
+     team_name(&a,n);
+     ^~~~~~~~~
+C:\Users\eshwa\AppData\Local\Temp\ccgYcd5o.o: In function `main':
+c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/PSC exam/fritacole.c:127: undefined reference to `team_name'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 2/23/2024, 4:09:22 PM
