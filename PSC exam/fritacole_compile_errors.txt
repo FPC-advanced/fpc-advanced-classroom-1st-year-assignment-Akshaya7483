@@ -429,3 +429,28 @@ c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
  void input_team_name(team *a,int m,int n)
       ^~~~~~~~~~~~~~~
 Compilation finished at 2/23/2024, 9:00:22 PM
+Compilation started at 2/24/2024, 10:20:35 AM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'score':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:146:13: warning: passing argument 1 of 'compare' from incompatible pointer type [-Wincompatible-pointer-types]
+     compare(score);
+             ^~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:122:11: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[2] {aka struct Team (*)[2]}'
+ fritacole compare(team *score);
+           ^~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:155:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:107:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a,int m,int n)
+      ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:156:5: warning: implicit declaration of function 'Score' [-Wimplicit-function-declaration]
+     Score(a,m,n);
+     ^~~~~
+C:\Users\eshwa\AppData\Local\Temp\ccSxYA0j.o: In function `score':
+c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/PSC exam/fritacole.c:144: undefined reference to `luck'
+c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/PSC exam/fritacole.c:146: undefined reference to `compare'
+C:\Users\eshwa\AppData\Local\Temp\ccSxYA0j.o: In function `main':
+c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/PSC exam/fritacole.c:156: undefined reference to `Score'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 2/24/2024, 10:20:35 AM

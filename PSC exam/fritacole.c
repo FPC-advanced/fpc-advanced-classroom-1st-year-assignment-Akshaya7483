@@ -59,11 +59,10 @@
 
 typedef struct Fritacole
 {
-    char player_name[20],intrest[10],ability[10];
-    float height,integrity,discipline;
+    char player_name[20],intrest[10];
+    float height,integrity,discipline,ability;
    int point,fouls;
 }fritacole;
-
 typedef struct Team
 {
    fritacole y;
@@ -96,15 +95,14 @@ void input_player_details(team *a,int n)
         printf("enter the fritacole interest\nYES='Y'\nNO ='N':\n");
         scanf("%s",a->y.intrest);
         printf("enter the fritacole ability\nCan do ='2'\nCan give a try='1'\nNone of this='0':\n");
-        scanf("%s",a->y.ability);
+        scanf("%d",&a->y.ability);
         printf("enter the fritacole discipline\nrate the level of discipline out of 10:\n");
         scanf("%f",&a->y.discipline);
         printf("enter the points played by %s\n:",a->y.player_name);
-        scanf("%d",a->y.point);
+        scanf("%d",&a->y.point);
         printf("enter the fouls played by %s\n:",a->y.player_name);
-        scanf("%d",a->y.fouls);
+        scanf("%d",&a->y.fouls);
     }
-    
 }
 void input_team_name(team *a,int m,int n)
 {
@@ -121,6 +119,55 @@ void input(game *name)
     printf("enter the game name :\n");
     scanf("%s",name->game_name);
 }
+fritacole compare(team *score);
+fritacole convert(team a[],int i) 
+{
+    fritacole x;
+    x.ability=0;    
+    if(a[i].y.intrest=='y'||a[i].y.intrest=='Y')
+    {
+        x.ability++;
+    }
+    return x;
+}
+fritacole luck(team a[],int n)
+{
+    fritacole sum;
+    int i;
+    for(i=0;i<n;i++)
+    {
+        sum.integrity+=a[i].y.point;
+        sum.discipline+=a[i].y.point;
+        sum.height+=a[i].y.point;
+        sum.ability+=a[i].y.ability;
+        sum.intrest=convert(a,i);
+    }
+    return sum;
+}
+fritacole hardwork(team a[],int n)
+{
+    int i;
+    fritacole sum;
+    sum.fouls=0;
+    sum.point=0;
+    for(i=0;i<n;i++)
+    {
+        sum.point+=a[i].y.point;
+        sum.fouls+=a[i].y.fouls;
+    }
+    return sum;
+}
+fritacole score(team a[],int m,int n)
+{
+    int i,j=0;
+    team score[2][2];
+    for(i=0;i<m;i++)
+    {
+        score[i][j].y=hardwork(a,n);
+        score[i][j+1].y=luck(a,n);
+    }
+    compare(score);
+}
 int main()
 {
     int n,m=2;
@@ -129,5 +176,6 @@ int main()
     input(&name);
     team a[m];
     input_team_name(&a,m,n);
+    Score(a,m,n);
    return 0;
 }
