@@ -176,6 +176,6 @@ int main()
     input(&name);
     team a[m];
     input_team_name(&a,m,n);
-    Score(a,m,n);
+    // Score(a,m,n);
    return 0;
 }
