@@ -1,39 +1,3 @@
-// 3. A Fritacole has attributes: name, height,  integrity, interest, ability, discipline.
-// There were two teams of Fritacoles playing a freyball game.
-// A freyball game consists of points and fouls
-// Each point is scored by a fritacole.
-// Each foul is committed by a fritacole.
-// The team that scores more goals wins the game.
-// If the goals are the same, the team that commits less fouls wins the game.
-// a. Write a function to verify whether the better team won a game?
-// Note that taller the person, the more chance that the fritacole may score a point.
-// b, Write a function to convert a fritacole into a string.
-// c. Write a function to convert a string into a fritacole.
-
-// #include <stdio.h>
-// #include <math.h>
-// int main () {
-//    char str[80];
-//    sprintf(str, "Value of Pi = %f", M_PI);
-//    puts(str);
-//    return(0);
-// }
-
-
-// #include <stdio.h>
-// #include <stdlib.h>
-// #include <string.h>
-// int main () {
-//    int day, year;
-//    char weekday[20], month[20], dtm[100];
-//    strcpy( dtm, "Saturday March 25 1989" );
-//    sscanf( dtm, "%s %s %d  %d", weekday, month, &day, &year );
-//    printf("%s %d, %d = %s\n", month, day, year, weekday );
-//    return(0);
-// }
-// Hints:Use structures for Fritacole , team, game, points and fouls.
-// Write functions to verify_win, compare_fritacoles, compare_teams and other functions.
-
 #include<stdio.h>
 
 typedef struct Fritacole
