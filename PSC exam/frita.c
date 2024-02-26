@@ -86,13 +86,13 @@ void input_player_details(team a[],int n)
         scanf("%d",&a[i].y.fouls);
     }
 }
-void input_team_name(team a[],int m,int n)
+void input_team_name(team *a[],int m,int n)
 {
     int i;
     for(i=0;i<m;i++)
     {
         printf("enter the team name :");
-        scanf("%s",a.team_name[i]);
+        scanf("%s",name->team_name[i]);
        input_player_details(a,n);
     }
 }
