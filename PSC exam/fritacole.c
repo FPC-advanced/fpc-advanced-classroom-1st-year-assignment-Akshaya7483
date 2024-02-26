@@ -127,7 +127,7 @@ fritacole compare(team *score);
 //     }
 //     return x;
 // } 
-fritacole verify_height(team a[],int i)
+int verify_height(team a[],int i)
 {
     int count =0;
     if(a[i].y.height>=6)
