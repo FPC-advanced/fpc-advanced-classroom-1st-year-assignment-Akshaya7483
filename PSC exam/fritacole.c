@@ -59,7 +59,7 @@ typedef struct Team
 {
    fritacole y;
    char team_name[20];
-   int sumofht;
+   int sumofht
 }team;
 
 typedef struct Game
@@ -136,7 +136,7 @@ int verify_height(team a[],int i)
     }
     return count;
 }
-int luck(team a[],int n)
+fritacole luck(team a[],int n)
 {
     fritacole sum;
     int i;
@@ -144,7 +144,7 @@ int luck(team a[],int n)
     {
         sum.integrity+=a[i].y.integrity;
         sum.discipline+=a[i].y.discipline;
-        sum->y.sumofht+=verify_height(a,i);
+        sum.height+=verify_height(a,i);
         sum.ability+=a[i].y.ability;
         // sum.intrest[i]+=convert_string(a,i);
     }
@@ -184,6 +184,6 @@ int main()
     input_team_name(&a,m,n);
     Score(a,m,n);
     output();
-
+    
    return 0;
 }
