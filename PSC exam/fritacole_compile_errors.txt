@@ -789,3 +789,19 @@ C:\Users\eshwa\AppData\Local\Temp\cca1w6Fq.o: In function `main':
 c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/PSC exam/fritacole.c:185: undefined reference to `output'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 2/26/2024, 11:47:11 AM
+Compilation started at 2/26/2024, 11:48:51 AM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'input_team_name':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:107:29: warning: passing argument 1 of 'input_player_details' from incompatible pointer type [-Wincompatible-pointer-types]
+        input_player_details(&a[i],n);
+                             ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:77:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team ** {aka struct Team **}'
+ void input_player_details(team *a,int n)
+      ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:183:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:100:6: note: expected 'team ** {aka struct Team **}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a[],int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/26/2024, 11:48:51 AM

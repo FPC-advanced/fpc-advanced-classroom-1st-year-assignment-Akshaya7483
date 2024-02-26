@@ -12,8 +12,6 @@
 
 // c. Write a function to convert a string into a fritacole.
 
-
-
 // #include <stdio.h>
 // #include <math.h>
 
@@ -182,6 +180,5 @@ int main()
     team a[m];
     input_team_name(&a,m,n);
     Score(a,m,n);
-    output();
    return 0;
 }
