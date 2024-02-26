@@ -116,11 +116,11 @@ void input(game *name)
 fritacole compare(team *score);
 fritacole convert_string(team a[],int i) 
 {
-    int x;
+    fritacole A[3];
     if (a[i].y.intrest[0]=='y' || a[i].y.intrest[0]=='Y')
     {
         int z=1; 
-
+        sprintf(A,"%d",z);  
     }
     else
     {
