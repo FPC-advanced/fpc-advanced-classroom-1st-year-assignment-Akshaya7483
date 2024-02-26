@@ -114,19 +114,20 @@ void input(game *name)
     scanf("%s",name->game_name);
 }
 fritacole compare(team *score);
-// fritacole convert_string(team a[],int i) 
-// {
-//     int x;
-//     if (a[i].y.intrest[0]=='y' || a[i].y.intrest[0]=='Y')
-//     {
-//         int z=1; 
-//     }
-//     else
-//     {
-//         int z=0;
-//     }
-//     return x;
-// } 
+fritacole convert_string(team a[],int i) 
+{
+    int x;
+    if (a[i].y.intrest[0]=='y' || a[i].y.intrest[0]=='Y')
+    {
+        int z=1; 
+
+    }
+    else
+    {
+        int z=0;
+    }
+    return x;
+} 
 fritacole verify_height(team a[],int i)
 {
     int count =0;
