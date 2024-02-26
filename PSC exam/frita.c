@@ -89,11 +89,11 @@ void input_player_details(team a[],int n)
 void input_team_name(game *name,int n)
 {
     int i;
-    for(i=0;i<m;i++)
+    for(i=0;i<2;i++)
     {
         printf("enter the team name :");
         scanf("%s",name->x[i].team_name);
-       input_player_details(name->x[i],n);
+       input_player_details(&name->x[i],n);
     }
 }
 void input(game *name,int n)
