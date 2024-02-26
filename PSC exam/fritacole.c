@@ -59,7 +59,6 @@ typedef struct Team
 {
    fritacole y;
    char team_name[20];
-   int sumofht
 }team;
 
 typedef struct Game
@@ -184,6 +183,5 @@ int main()
     input_team_name(&a,m,n);
     Score(a,m,n);
     output();
-    
    return 0;
 }
