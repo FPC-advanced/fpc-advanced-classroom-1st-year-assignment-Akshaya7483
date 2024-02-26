@@ -5,24 +5,13 @@
 // Each foul is committed by a fritacole.
 // The team that scores more goals wins the game.
 // If the goals are the same, the team that commits less fouls wins the game.
-
-// team a 
-// team b
-// no of goals 
-// no of fouls
-// goals of a== goals of b
-// {
-// 	fouls  matter
-// }
-
 // a. Write a function to verify whether the better team won a game?
 // Note that taller the person, the more chance that the fritacole may score a point.
 
 // b, Write a function to convert a fritacole into a string.
 
 // c. Write a function to convert a string into a fritacole.
-// Hints:Use structures for Fritacole , team, game, points and fouls.
-// Write functions to verify_win, compare_fritacoles, compare_teams and other functions.
+
 
 
 // #include <stdio.h>
@@ -54,19 +43,23 @@
 //    return(0);
 // }
 // Hints:Use structures for Fritacole , team, game, points and fouls.
+// Write functions to verify_win, compare_fritacoles, compare_teams and other functions.
 
 #include<stdio.h>
 
 typedef struct Fritacole
 {
     char player_name[20],intrest[10];
-    float height,integrity,discipline,ability;
-   int point,fouls;
+    float height,integrity,discipline;
+   int point,fouls,ability;
+   
 }fritacole;
+
 typedef struct Team
 {
    fritacole y;
    char team_name[20];
+   int sumofht;
 }team;
 
 typedef struct Game
@@ -74,6 +67,7 @@ typedef struct Game
    team x;
    char game_name[20];
 }game;
+
 int get_number_of_players()
 {
     int n;
@@ -104,13 +98,13 @@ void input_player_details(team *a,int n)
         scanf("%d",&a->y.fouls);
     }
 }
-void input_team_name(team *a,int m,int n)
+void input_team_name(team *a[],int m,int n)
 {
     int i;
     for(i=0;i<m;i++)
     {
         printf("enter the team name :");
-        scanf("%s",a[i].team_name);
+        scanf("%s",a[i]->team_name);
        input_player_details(&a[i],n);
     }
 }
@@ -120,27 +114,39 @@ void input(game *name)
     scanf("%s",name->game_name);
 }
 fritacole compare(team *score);
-fritacole convert(team a[],int i) 
+// fritacole convert_string(team a[],int i) 
+// {
+//     int x;
+//     if (a[i].y.intrest[0]=='y' || a[i].y.intrest[0]=='Y')
+//     {
+//         int z=1; 
+//     }
+//     else
+//     {
+//         int z=0;
+//     }
+//     return x;
+// } 
+fritacole verify_height(team a[],int i)
 {
-    fritacole x;
-    x.ability=0;    
-    if(a[i].y.intrest=='y'||a[i].y.intrest=='Y')
+    int count =0;
+    if(a[i].y.height>=6)
     {
-        x.ability++;
+        count++;
     }
-    return x;
+    return count;
 }
-fritacole luck(team a[],int n)
+int luck(team a[],int n)
 {
     fritacole sum;
     int i;
     for(i=0;i<n;i++)
     {
-        sum.integrity+=a[i].y.point;
-        sum.discipline+=a[i].y.point;
-        sum.height+=a[i].y.point;
+        sum.integrity+=a[i].y.integrity;
+        sum.discipline+=a[i].y.discipline;
+        sum->y.sumofht+=verify_height(a,i);
         sum.ability+=a[i].y.ability;
-        sum.intrest=convert(a,i);
+        // sum.intrest[i]+=convert_string(a,i);
     }
     return sum;
 }
@@ -157,7 +163,7 @@ fritacole hardwork(team a[],int n)
     }
     return sum;
 }
-fritacole score(team a[],int m,int n)
+fritacole Score(team a[],int m,int n)
 {
     int i,j=0;
     team score[2][2];
@@ -166,7 +172,7 @@ fritacole score(team a[],int m,int n)
         score[i][j].y=hardwork(a,n);
         score[i][j+1].y=luck(a,n);
     }
-    compare(score);
+    // compare(&score);
 }
 int main()
 {
@@ -176,6 +182,8 @@ int main()
     input(&name);
     team a[m];
     input_team_name(&a,m,n);
-    // Score(a,m,n);
+    Score(a,m,n);
+    output();
+
    return 0;
 }

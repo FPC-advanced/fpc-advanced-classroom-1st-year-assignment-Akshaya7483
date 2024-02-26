@@ -4,3 +4,41 @@ Compilation started at 2/23/2024, 11:43:19 AM
 Compilation finished at 2/23/2024, 11:43:19 AM
 Compilation started at 2/23/2024, 11:46:23 AM
 Compilation finished at 2/23/2024, 11:46:23 AM
+Compilation started at 2/25/2024, 7:56:24 PM
+Compilation finished at 2/25/2024, 7:56:24 PM
+Compilation started at 2/25/2024, 7:58:51 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\sprintf.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\sprintf.c:24:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+     return A;
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\sprintf.c:24:12: warning: function returns address of local variable [-Wreturn-local-addr]
+Compilation finished at 2/25/2024, 7:58:52 PM
+Compilation started at 2/25/2024, 7:59:08 PM
+Compilation finished at 2/25/2024, 7:59:08 PM
+Compilation started at 2/25/2024, 7:59:32 PM
+Compilation finished at 2/25/2024, 7:59:32 PM
+Compilation started at 2/25/2024, 8:12:38 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\sprintf.c: In function 'Score':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\sprintf.c:150:20: error: 'team {aka struct Team}' has no member named 'x'
+         score[i][j].x.y = hardwork(a, n);
+                    ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\sprintf.c:151:24: error: 'team {aka struct Team}' has no member named 'x'
+         score[i][j + 1].x.y = luck(a, n);
+                        ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\sprintf.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\sprintf.c:163:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(a, m, n); // Pass array directly
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\sprintf.c:82:6: note: expected 'team ** {aka struct Team **}' but argument is of type 'team * {aka struct Team *}'
+ void input_team_name(team *a[], int m, int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/25/2024, 8:12:38 PM
+Compilation started at 2/25/2024, 8:13:51 PM
+C:\Users\eshwa\AppData\Local\Temp\ccKfhiMs.o: In function `Score':
+c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/PSC exam/sprintf.c:151: undefined reference to `compare'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 2/25/2024, 8:13:51 PM
+Compilation started at 2/25/2024, 8:14:09 PM
+Compilation finished at 2/25/2024, 8:14:09 PM
+Compilation started at 2/25/2024, 8:16:35 PM
+Compilation finished at 2/25/2024, 8:16:35 PM

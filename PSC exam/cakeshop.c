@@ -77,6 +77,5 @@ int main()
     int customer;
     customer=10;
     profit(customer,n,&prdct);
-    cakeshop
     return 0;
 }
