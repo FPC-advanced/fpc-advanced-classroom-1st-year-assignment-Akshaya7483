@@ -125,8 +125,9 @@ fritacole convert_string(team a[],int i)
     else
     {
         int z=0;
+        sprintf(A,"%d",z);  
     }
-    return x;
+    return A;
 } 
 fritacole verify_height(team a[],int i)
 {
