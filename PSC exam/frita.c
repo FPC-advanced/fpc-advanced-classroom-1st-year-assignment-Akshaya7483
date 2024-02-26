@@ -68,7 +68,7 @@ void input_player_details(team a[],int n)
     int i;
     for(i=0;i<n;i++)
     {
-     +   printf("enter the fritacole name : \n ");
+        printf("enter the fritacole name : \n ");
         scanf("%s",a[i].y.player_name);
         printf("enter the fritacole height in ft:\n");
         scanf("%f",&a[i].y.height);
