@@ -183,3 +183,5 @@ c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
          input_player_details(name,n);
          ^~~~~~~~~~~~~~~~~~~~
 Compilation finished at 2/26/2024, 10:19:45 PM
+Compilation started at 2/26/2024, 11:05:56 PM
+Compilation finished at 2/26/2024, 11:05:57 PM
