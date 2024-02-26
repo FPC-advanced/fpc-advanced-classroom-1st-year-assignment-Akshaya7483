@@ -86,7 +86,7 @@ void input_player_details(team a[],int n)
         scanf("%d",&a[i].y.fouls);
     }
 }
-void input_team_name(game *name,int m,int n)
+void input_team_name(game *name,int n)
 {
     int i;
     for(i=0;i<m;i++)
@@ -107,5 +107,7 @@ int main()
     int n,m=2;
     game name;
     n=get_number_of_players();
+    input(&name,n);
+
    return 0;
 }
