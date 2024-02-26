@@ -113,19 +113,19 @@ void input(game *name)
     scanf("%s",name->game_name);
 }
 fritacole compare(team *score);
-// fritacole convert_string(team a[],int i) 
-// {
-//     int x;
-//     if (a[i].y.intrest[0]=='y' || a[i].y.intrest[0]=='Y')
-//     {
-//         int z=1; 
-//     }
-//     else
-//     {
-//         int z=0;
-//     }
-//     return x;
-// } 
+int convert_string(team a[],int i) 
+{
+    int x;
+    if (a[i].y.intrest[0]=='y' || a[i].y.intrest[0]=='Y')
+    {
+        int z=1; 
+    }
+    else
+    {
+        int z=0;
+    }
+    return x;
+} 
 int verify_height(team a[],int i)
 {
     int count =0;
@@ -145,7 +145,7 @@ fritacole luck(team a[],int n)
         sum.discipline+=a[i].y.discipline;
         sum.height+=verify_height(a,i);
         sum.ability+=a[i].y.ability;
-        // sum.intrest[i]+=convert_string(a,i);
+        sum.intrest[i]+=convert_string(a,i);
     }
     return sum;
 }
