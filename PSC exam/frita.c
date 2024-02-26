@@ -52,7 +52,7 @@ typedef struct Team
 
 typedef struct Game
 {
-   team x;
+   team x[2];
    char game_name[20];
 }game;
 
@@ -92,7 +92,7 @@ void input_team_name(team a[],int m,int n)
     for(i=0;i<m;i++)
     {
         printf("enter the team name :");
-        scanf("%s",a[i].team_name);
+        scanf("%s",a.team_name[i]);
        input_player_details(a,n);
     }
 }
