@@ -1,0 +1,185 @@
+Compilation started at 2/26/2024, 10:05:04 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: In function 'input':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:36:13: warning: implicit declaration of function 'input_team_name' [-Wimplicit-function-declaration]
+     name->a=input_team_name(name,m,n);
+             ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:36:12: error: incompatible types when assigning to type 'team {aka struct Team}' from type 'int'
+     name->a=input_team_name(name,m,n);
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:37:12: error: incompatible types when assigning to type 'team {aka struct Team}' from type 'int'
+     name->b=input_team_name(name,m,n);
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: At top level:
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:39:6: error: conflicting types for 'input_team_name'
+ team input_team_name(game *name,int m,int n)
+      ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:36:13: note: previous implicit declaration of 'input_team_name' was here
+     name->a=input_team_name(name,m,n);
+             ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: In function 'input_team_name':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:44:9: warning: implicit declaration of function 'input_player_details' [-Wimplicit-function-declaration]
+         input_player_details(name,n);
+         ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: At top level:
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:47:6: warning: conflicting types for 'input_player_details'
+ void input_player_details(game *name ,int n)
+      ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:44:9: note: previous implicit declaration of 'input_player_details' was here
+         input_player_details(name,n);
+         ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: In function 'input_player_details':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:64:51: error: 'a' undeclared (first use in this function)
+         printf("enter the points played by %s\n:",a[i].y.player_name);
+                                                   ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:64:51: note: each undeclared identifier is reported only once for each function it appears in
+Compilation finished at 2/26/2024, 10:05:04 PM
+Compilation started at 2/26/2024, 10:05:49 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: In function 'input':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:36:13: warning: implicit declaration of function 'input_team_name' [-Wimplicit-function-declaration]
+     name->a=input_team_name(name,m,n);
+             ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:36:12: error: incompatible types when assigning to type 'team {aka struct Team}' from type 'int'
+     name->a=input_team_name(name,m,n);
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:37:12: error: incompatible types when assigning to type 'team {aka struct Team}' from type 'int'
+     name->b=input_team_name(name,m,n);
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: At top level:
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:39:6: error: conflicting types for 'input_team_name'
+ team input_team_name(game *name,int m,int n)
+      ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:36:13: note: previous implicit declaration of 'input_team_name' was here
+     name->a=input_team_name(name,m,n);
+             ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: In function 'input_team_name':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:44:9: warning: implicit declaration of function 'input_player_details' [-Wimplicit-function-declaration]
+         input_player_details(name,n);
+         ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: At top level:
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:47:6: warning: conflicting types for 'input_player_details'
+ void input_player_details(game *name ,int n)
+      ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:44:9: note: previous implicit declaration of 'input_player_details' was here
+         input_player_details(name,n);
+         ^~~~~~~~~~~~~~~~~~~~
+Compilation finished at 2/26/2024, 10:05:49 PM
+Compilation started at 2/26/2024, 10:14:08 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: In function 'input':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:36:13: warning: implicit declaration of function 'input_team_name' [-Wimplicit-function-declaration]
+     name->a=input_team_name(name,m,n);
+             ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:36:12: error: incompatible types when assigning to type 'team {aka struct Team}' from type 'int'
+     name->a=input_team_name(name,m,n);
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:37:12: error: incompatible types when assigning to type 'team {aka struct Team}' from type 'int'
+     name->b=input_team_name(name,m,n);
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: At top level:
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:39:6: error: conflicting types for 'input_team_name'
+ team input_team_name(game *name,int m,int n)
+      ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:36:13: note: previous implicit declaration of 'input_team_name' was here
+     name->a=input_team_name(name,m,n);
+             ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: In function 'input_team_name':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:44:9: warning: implicit declaration of function 'input_player_details' [-Wimplicit-function-declaration]
+         input_player_details(name,n);
+         ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: At top level:
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:47:6: warning: conflicting types for 'input_player_details'
+ void input_player_details(game *name ,int n)
+      ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:44:9: note: previous implicit declaration of 'input_player_details' was here
+         input_player_details(name,n);
+         ^~~~~~~~~~~~~~~~~~~~
+Compilation finished at 2/26/2024, 10:14:08 PM
+Compilation started at 2/26/2024, 10:14:31 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: In function 'input':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:36:13: warning: implicit declaration of function 'input_team_name' [-Wimplicit-function-declaration]
+     name->a=input_team_name(name,m,n);
+             ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:36:12: error: incompatible types when assigning to type 'team {aka struct Team}' from type 'int'
+     name->a=input_team_name(name,m,n);
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:37:12: error: incompatible types when assigning to type 'team {aka struct Team}' from type 'int'
+     name->b=input_team_name(name,m,n);
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: At top level:
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:39:6: error: conflicting types for 'input_team_name'
+ team input_team_name(game *name,int m,int n)
+      ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:36:13: note: previous implicit declaration of 'input_team_name' was here
+     name->a=input_team_name(name,m,n);
+             ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: In function 'input_team_name':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:44:9: warning: implicit declaration of function 'input_player_details' [-Wimplicit-function-declaration]
+         input_player_details(name,n);
+         ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: At top level:
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:47:11: error: conflicting types for 'input_player_details'
+ fritacole input_player_details(game *name ,int n)
+           ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:44:9: note: previous implicit declaration of 'input_player_details' was here
+         input_player_details(name,n);
+         ^~~~~~~~~~~~~~~~~~~~
+Compilation finished at 2/26/2024, 10:14:31 PM
+Compilation started at 2/26/2024, 10:19:00 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: In function 'input':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:36:13: warning: implicit declaration of function 'input_team_name' [-Wimplicit-function-declaration]
+     name->a=input_team_name(name,m,n);
+             ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:36:12: error: incompatible types when assigning to type 'team {aka struct Team}' from type 'int'
+     name->a=input_team_name(name,m,n);
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:37:12: error: incompatible types when assigning to type 'team {aka struct Team}' from type 'int'
+     name->b=input_team_name(name,m,n);
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: At top level:
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:39:6: error: conflicting types for 'input_team_name'
+ team input_team_name(game *name,int m,int n)
+      ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:36:13: note: previous implicit declaration of 'input_team_name' was here
+     name->a=input_team_name(name,m,n);
+             ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: In function 'input_team_name':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:44:9: warning: implicit declaration of function 'input_player_details' [-Wimplicit-function-declaration]
+         input_player_details(name,n);
+         ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: At top level:
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:47:6: warning: conflicting types for 'input_player_details'
+ void input_player_details(game *name ,int n)
+      ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:44:9: note: previous implicit declaration of 'input_player_details' was here
+         input_player_details(name,n);
+         ^~~~~~~~~~~~~~~~~~~~
+Compilation finished at 2/26/2024, 10:19:00 PM
+Compilation started at 2/26/2024, 10:19:45 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: In function 'input':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:36:13: warning: implicit declaration of function 'input_team_name' [-Wimplicit-function-declaration]
+     name->a=input_team_name(name,m,n);
+             ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:36:12: error: incompatible types when assigning to type 'team {aka struct Team}' from type 'int'
+     name->a=input_team_name(name,m,n);
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:37:12: error: incompatible types when assigning to type 'team {aka struct Team}' from type 'int'
+     name->b=input_team_name(name,m,n);
+            ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: At top level:
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:39:6: error: conflicting types for 'input_team_name'
+ team input_team_name(game *name,int m,int n)
+      ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:36:13: note: previous implicit declaration of 'input_team_name' was here
+     name->a=input_team_name(name,m,n);
+             ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: In function 'input_team_name':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:44:9: warning: implicit declaration of function 'input_player_details' [-Wimplicit-function-declaration]
+         input_player_details(name,n);
+         ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c: At top level:
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:47:6: warning: conflicting types for 'input_player_details'
+ void input_player_details(game *name ,int n)
+      ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\frita.c:44:9: note: previous implicit declaration of 'input_player_details' was here
+         input_player_details(name,n);
+         ^~~~~~~~~~~~~~~~~~~~
+Compilation finished at 2/26/2024, 10:19:45 PM

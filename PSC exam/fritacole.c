@@ -39,8 +39,8 @@
 typedef struct Fritacole
 {
     char player_name[20],intrest[10];
-    float height,integrity,discipline;
-   int point,fouls,ability;
+    float height,integrity,discipline,attribute_point;
+   int point,fouls,ability,converted_intrest;
    
 }fritacole;
 
@@ -63,37 +63,37 @@ int get_number_of_players()
     scanf("%d",&n);
     return n;
 }
-void input_player_details(team *a,int n)
+void input_player_details(team a[],int n)
 {
     int i;
     for(i=0;i<n;i++)
     {
-        printf("enter the fritacole name : \n ");
-        scanf("%s",a->y.player_name);
-        printf("enter the fritacole height:\n");
-        scanf("%f",&a->y.height);
+     +   printf("enter the fritacole name : \n ");
+        scanf("%s",a[i].y.player_name);
+        printf("enter the fritacole height in ft:\n");
+        scanf("%f",&a[i].y.height);
         printf("enter the fritacole integrity \nrate the level of integrity out of 10:\n");
-        scanf("%f",&a->y.integrity);
+        scanf("%f",&a[i].y.integrity);
         printf("enter the fritacole interest\nYES='Y'\nNO ='N':\n");
-        scanf("%s",a->y.intrest);
+        scanf("%s",a[i].y.intrest);
         printf("enter the fritacole ability\nCan do ='2'\nCan give a try='1'\nNone of this='0':\n");
-        scanf("%d",&a->y.ability);
+        scanf("%d",&a[i].y.ability);
         printf("enter the fritacole discipline\nrate the level of discipline out of 10:\n");
-        scanf("%f",&a->y.discipline);
-        printf("enter the points played by %s\n:",a->y.player_name);
-        scanf("%d",&a->y.point);
-        printf("enter the fouls played by %s\n:",a->y.player_name);
-        scanf("%d",&a->y.fouls);
+        scanf("%f",&a[i].y.discipline);
+        printf("enter the points played by %s\n:",a[i].y.player_name);
+        scanf("%d",&a[i].y.point);
+        printf("enter the fouls played by %s\n:",a[i].y.player_name);
+        scanf("%d",&a[i].y.fouls);
     }
 }
-void input_team_name(team *a[],int m,int n)
+void input_team_name(team a[],int m,int n)
 {
     int i;
     for(i=0;i<m;i++)
     {
         printf("enter the team name :");
-        scanf("%s",a[i]->team_name);
-       input_player_details(&a[i],n);
+        scanf("%s",a[i].team_name);
+       input_player_details(a,n);
     }
 }
 void input(game *name)
@@ -101,44 +101,50 @@ void input(game *name)
     printf("enter the game name :\n");
     scanf("%s",name->game_name);
 }
-fritacole compare(team *score);
 int convert_string(team a[],int i) 
 {
-    int x;
     if (a[i].y.intrest[0]=='y' || a[i].y.intrest[0]=='Y')
     {
-        int z=1; 
+        return 1;
     }
     else
     {
-        int z=0;
+        return 0;
     }
-    return x;
 } 
 int verify_height(team a[],int i)
 {
-    int count =0;
+    
     if(a[i].y.height>=6)
     {
-        count++;
+        return 1;
     }
-    return count;
+    return 0;
 }
-fritacole luck(team a[],int n)
+fritacole attribute(team a[],int n)
 {
     fritacole sum;
-    int i;
+    sum.integrity=0;
+    sum.discipline=0;
+    sum.height=0;
+    sum.ability=0;
+    sum.converted_intrest=0;
+    sum.attribute_point=0;
+    int i,x,z;
     for(i=0;i<n;i++)
     {
         sum.integrity+=a[i].y.integrity;
         sum.discipline+=a[i].y.discipline;
-        sum.height+=verify_height(a,i);
+        x=verify_height(a,i);
+        sum.height+=x;
         sum.ability+=a[i].y.ability;
-        sum.intrest[i]+=convert_string(a,i);
+        z=convert_string(a,i);
+        sum.converted_intrest+=z;
+
     }
     return sum;
 }
-fritacole hardwork(team a[],int n)
+fritacole points_scored(team a[],int n)
 {
     int i;
     fritacole sum;
@@ -151,16 +157,25 @@ fritacole hardwork(team a[],int n)
     }
     return sum;
 }
-fritacole Score(team a[],int m,int n)
+fritacole Score(team a[],int m,int n,team score[][2])
 {
     int i,j=0;
-    team score[2][2];
     for(i=0;i<m;i++)
     {
-        score[i][j].y=hardwork(a,n);
-        score[i][j+1].y=luck(a,n);
+        score[i][j].y=points_scored(a,n);
+        score[i][j+1].y=attribute(a,n);
     }
-    // compare(&score);
+}
+fritacole compare(team score[][2])
+{
+     int i,j=0;
+    for(i=0;i<2;i++)
+    {
+        if(score[i][j].y>score[i+][j].y)
+        {
+            return
+        }
+    }
 }
 int main()
 {
@@ -169,7 +184,9 @@ int main()
     n=get_number_of_players();
     input(&name);
     team a[m];
-    input_team_name(&a,m,n);
-    Score(a,m,n);
+    input_team_name(a,m,n);
+    team score[2][2];
+    Score(a,m,n,score);
+    compare(&score);
    return 0;
 }

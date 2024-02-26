@@ -821,3 +821,137 @@ c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
  void input_team_name(team *a[],int m,int n)
       ^~~~~~~~~~~~~~~
 Compilation finished at 2/26/2024, 11:54:21 AM
+Compilation started at 2/26/2024, 12:23:33 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'input_team_name':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:96:29: warning: passing argument 1 of 'input_player_details' from incompatible pointer type [-Wincompatible-pointer-types]
+        input_player_details(&a[i],n);
+                             ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:66:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team ** {aka struct Team **}'
+ void input_player_details(team *a,int n)
+      ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'Score':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:171:13: warning: passing argument 1 of 'compare' from incompatible pointer type [-Wincompatible-pointer-types]
+     compare(&score);
+             ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:104:11: note: expected 'team (*)[2] {aka struct Team (*)[2]}' but argument is of type 'team (*)[2][2] {aka struct Team (*)[2][2]}'
+ fritacole compare(team score[][2]);
+           ^~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:180:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:89:6: note: expected 'team ** {aka struct Team **}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a[],int m,int n)
+      ^~~~~~~~~~~~~~~
+C:\Users\eshwa\AppData\Local\Temp\ccixAC5V.o: In function `Score':
+c:/Users/eshwa/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Akshaya7483/PSC exam/fritacole.c:171: undefined reference to `compare'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 2/26/2024, 12:23:33 PM
+Compilation started at 2/26/2024, 12:23:48 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'input_team_name':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:96:29: warning: passing argument 1 of 'input_player_details' from incompatible pointer type [-Wincompatible-pointer-types]
+        input_player_details(&a[i],n);
+                             ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:66:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team ** {aka struct Team **}'
+ void input_player_details(team *a,int n)
+      ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:180:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:89:6: note: expected 'team ** {aka struct Team **}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a[],int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/26/2024, 12:23:48 PM
+Compilation started at 2/26/2024, 12:25:30 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'input_player_details':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:83:52: error: '*a' is a pointer; did you mean to use '->'?
+         printf("enter the points played by %s\n:",a->y.player_name);
+                                                    ^~
+                                                    ->
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:85:51: error: '*a' is a pointer; did you mean to use '->'?
+         printf("enter the fouls played by %s\n:",a->y.player_name);
+                                                   ^~
+                                                   ->
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:180:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:89:6: note: expected 'team ** {aka struct Team **}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a[],int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/26/2024, 12:25:30 PM
+Compilation started at 2/26/2024, 12:25:59 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:180:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:89:6: note: expected 'team ** {aka struct Team **}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a[],int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/26/2024, 12:26:00 PM
+Compilation started at 2/26/2024, 12:26:40 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'input_team_name':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:96:29: warning: passing argument 1 of 'input_player_details' from incompatible pointer type [-Wincompatible-pointer-types]
+        input_player_details(&a,n);
+                             ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:66:6: note: expected 'team ** {aka struct Team **}' but argument is of type 'team *** {aka struct Team ***}'
+ void input_player_details(team *a[],int n)
+      ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:180:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(&a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:89:6: note: expected 'team ** {aka struct Team **}' but argument is of type 'team (*)[(sizetype)(m)]'
+ void input_team_name(team *a[],int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/26/2024, 12:26:40 PM
+Compilation started at 2/26/2024, 12:29:39 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:180:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:89:6: note: expected 'team ** {aka struct Team **}' but argument is of type 'team * {aka struct Team *}'
+ void input_team_name(team *a[],int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/26/2024, 12:29:40 PM
+Compilation started at 2/26/2024, 12:34:23 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'input_player_details':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:83:55: error: invalid type argument of '->' (have 'team {aka struct Team}')
+         printf("enter the points played by %s\n:",a[i]->y.player_name);
+                                                       ^~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:85:54: error: invalid type argument of '->' (have 'team {aka struct Team}')
+         printf("enter the fouls played by %s\n:",a[i]->y.player_name);
+                                                      ^~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'input_team_name':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:96:29: warning: passing argument 1 of 'input_player_details' from incompatible pointer type [-Wincompatible-pointer-types]
+        input_player_details(a,n);
+                             ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:66:6: note: expected 'team * {aka struct Team *}' but argument is of type 'team ** {aka struct Team **}'
+ void input_player_details(team a[],int n)
+      ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'main':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:180:21: warning: passing argument 1 of 'input_team_name' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_team_name(a,m,n);
+                     ^
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:89:6: note: expected 'team ** {aka struct Team **}' but argument is of type 'team * {aka struct Team *}'
+ void input_team_name(team *a[],int m,int n)
+      ^~~~~~~~~~~~~~~
+Compilation finished at 2/26/2024, 12:34:23 PM
+Compilation started at 2/26/2024, 12:34:47 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c: In function 'input_player_details':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:83:55: error: invalid type argument of '->' (have 'team {aka struct Team}')
+         printf("enter the points played by %s\n:",a[i]->y.player_name);
+                                                       ^~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacole.c:85:54: error: invalid type argument of '->' (have 'team {aka struct Team}')
+         printf("enter the fouls played by %s\n:",a[i]->y.player_name);
+                                                      ^~
+Compilation finished at 2/26/2024, 12:34:48 PM
+Compilation started at 2/26/2024, 12:35:01 PM
+Compilation finished at 2/26/2024, 12:35:01 PM
+Compilation started at 2/26/2024, 12:35:59 PM
+Compilation finished at 2/26/2024, 12:35:59 PM
+Compilation started at 2/26/2024, 12:36:59 PM
+Compilation finished at 2/26/2024, 12:37:00 PM
+Compilation started at 2/26/2024, 12:38:49 PM
+Compilation finished at 2/26/2024, 12:38:50 PM

@@ -1,0 +1,24 @@
+Compilation started at 2/26/2024, 10:42:21 PM
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacol.c: In function 'input_team':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacol.c:45:13: warning: implicit declaration of function 'input_team_name' [-Wimplicit-function-declaration]
+             input_team_name(a,i,m,n);
+             ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacol.c: At top level:
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacol.c:53:6: warning: conflicting types for 'input_team_name'
+ void input_team_name(game a[],int i,int m,int n)
+      ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacol.c:45:13: note: previous implicit declaration of 'input_team_name' was here
+             input_team_name(a,i,m,n);
+             ^~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacol.c: In function 'input_team_name':
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacol.c:61:11: warning: implicit declaration of function 'input_player_details' [-Wimplicit-function-declaration]
+           input_player_details(a,n,i);
+           ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacol.c: At top level:
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacol.c:71:6: warning: conflicting types for 'input_player_details'
+ void input_player_details(game a[] ,int n,int q)
+      ^~~~~~~~~~~~~~~~~~~~
+c:\Users\eshwa\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Akshaya7483\PSC exam\fritacol.c:61:11: note: previous implicit declaration of 'input_player_details' was here
+           input_player_details(a,n,i);
+           ^~~~~~~~~~~~~~~~~~~~
+Compilation finished at 2/26/2024, 10:42:22 PM

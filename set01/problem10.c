@@ -9,14 +9,15 @@ void input(char *a,char *b)
 int compute(char *a,char *b) //for ex : a[]=heart b[]=hello
 {   int i=0;
     while(a[i]!='\0'|| b[i]!='\0')  
-    {
-        
+        {
             if(a[i]!=b[i])  // checks for each alphabets , h ==h ,e==e ,a!=l
                {
                     return a[i]-b[i]; // so a-l --->97-109 = -12 
                }
-
-          i++;
+               else
+               {
+                    i++;
+               }
         }
         return 0;
     }
